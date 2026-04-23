@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-22T22:21:59.725731-04:00",
-  "today": "2026-04-22",
-  "tomorrow": "2026-04-23",
+  "generated_at": "2026-04-23T07:38:23.172994-04:00",
+  "today": "2026-04-23",
+  "tomorrow": "2026-04-24",
   "spots": [
     {
       "name": "Oka",
@@ -18,160 +18,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-04-22T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 7.8,
-          "gust": 9.9,
-          "temp": 7.9,
-          "precip": 0,
-          "dir": 37,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 6.5,
-          "gust": 8.2,
-          "temp": 9.0,
-          "precip": 0,
-          "dir": 49,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.8,
-          "gust": 6.0,
-          "temp": 11.0,
-          "precip": 0,
-          "dir": 47,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 5.8,
-          "gust": 6.6,
-          "temp": 12.2,
-          "precip": 0,
-          "dir": 48,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 5.4,
-          "gust": 6.2,
-          "temp": 13.1,
-          "precip": 0,
-          "dir": 52,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 6.8,
-          "gust": 8.2,
-          "temp": 13.7,
-          "precip": 0,
-          "dir": 77,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 3.6,
-          "gust": 4.9,
-          "temp": 14.3,
-          "precip": 0,
-          "dir": 68,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 1.8,
-          "gust": 6.8,
-          "temp": 15.1,
-          "precip": 0,
-          "dir": 103,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 1.0,
-          "gust": 6.2,
-          "temp": 15.5,
-          "precip": 0,
-          "dir": 22,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 1.6,
-          "gust": 7.8,
-          "temp": 15.7,
-          "precip": 0,
-          "dir": 166,
-          "reason": "16°C"
-        },
-        {
-          "time": "2026-04-22T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 1.8,
-          "gust": 2.9,
-          "temp": 14.7,
-          "precip": 0,
-          "dir": 131,
-          "reason": "vent off-shore"
-        },
-        {
           "time": "2026-04-23T09:00",
           "status": "red",
           "sources": {
@@ -179,11 +25,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 6.6,
-          "gust": 13.2,
-          "temp": 7.6,
+          "wind": 5.4,
+          "gust": 14.4,
+          "temp": 8.3,
           "precip": 0,
-          "dir": 317,
+          "dir": 305,
           "reason": "8°C"
         },
         {
@@ -194,11 +40,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 7.7,
-          "gust": 15.7,
-          "temp": 8.7,
+          "wind": 8.6,
+          "gust": 16.9,
+          "temp": 9.3,
           "precip": 0,
-          "dir": 315,
+          "dir": 293,
           "reason": "9°C"
         },
         {
@@ -209,12 +55,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.4,
-          "gust": 13.8,
-          "temp": 10.0,
+          "wind": 11.8,
+          "gust": 19.4,
+          "temp": 10.6,
           "precip": 0,
-          "dir": 320,
-          "reason": "10°C"
+          "dir": 300,
+          "reason": "11°C"
         },
         {
           "time": "2026-04-23T12:00",
@@ -224,11 +70,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.3,
-          "gust": 15.7,
-          "temp": 11.0,
+          "wind": 11.9,
+          "gust": 20.6,
+          "temp": 11.4,
           "precip": 0,
-          "dir": 311,
+          "dir": 307,
           "reason": "11°C"
         },
         {
@@ -239,12 +85,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.4,
-          "gust": 14.8,
-          "temp": 11.4,
+          "wind": 12.1,
+          "gust": 18.5,
+          "temp": 12.2,
           "precip": 0,
-          "dir": 317,
-          "reason": "11°C"
+          "dir": 310,
+          "reason": "12°C"
         },
         {
           "time": "2026-04-23T14:00",
@@ -254,12 +100,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.9,
-          "gust": 18.3,
-          "temp": 11.9,
+          "wind": 12.0,
+          "gust": 17.7,
+          "temp": 12.6,
           "precip": 0,
-          "dir": 319,
-          "reason": "12°C"
+          "dir": 320,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T15:00",
@@ -269,12 +115,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.3,
-          "gust": 17.3,
-          "temp": 12.1,
+          "wind": 12.0,
+          "gust": 22.0,
+          "temp": 12.9,
           "precip": 0,
-          "dir": 315,
-          "reason": "12°C"
+          "dir": 317,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T16:00",
@@ -284,12 +130,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.3,
-          "gust": 15.7,
-          "temp": 12.1,
+          "wind": 11.6,
+          "gust": 19.4,
+          "temp": 13.0,
           "precip": 0,
-          "dir": 315,
-          "reason": "12°C"
+          "dir": 319,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T17:00",
@@ -299,12 +145,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.7,
-          "gust": 15.0,
-          "temp": 11.9,
+          "wind": 11.2,
+          "gust": 17.7,
+          "temp": 12.9,
           "precip": 0,
-          "dir": 323,
-          "reason": "12°C"
+          "dir": 320,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T18:00",
@@ -314,12 +160,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.9,
-          "gust": 14.6,
-          "temp": 11.2,
+          "wind": 10.8,
+          "gust": 15.6,
+          "temp": 12.4,
           "precip": 0,
-          "dir": 333,
-          "reason": "11°C"
+          "dir": 324,
+          "reason": "12°C"
         },
         {
           "time": "2026-04-23T19:00",
@@ -329,11 +175,176 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.9,
+          "wind": 9.4,
           "gust": 14.8,
-          "temp": 10.0,
+          "temp": 11.4,
           "precip": 0,
           "dir": 338,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.2,
+          "gust": 12.1,
+          "temp": 5.1,
+          "precip": 0,
+          "dir": 341,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.2,
+          "gust": 11.1,
+          "temp": 6.3,
+          "precip": 0,
+          "dir": 338,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.4,
+          "gust": 10.9,
+          "temp": 7.4,
+          "precip": 0,
+          "dir": 337,
+          "reason": "7°C"
+        },
+        {
+          "time": "2026-04-24T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.9,
+          "gust": 10.5,
+          "temp": 8.1,
+          "precip": 0,
+          "dir": 344,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.2,
+          "gust": 14.2,
+          "temp": 8.8,
+          "precip": 0,
+          "dir": 346,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.8,
+          "gust": 10.3,
+          "temp": 9.6,
+          "precip": 0,
+          "dir": 353,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.1,
+          "gust": 9.9,
+          "temp": 10.0,
+          "precip": 0,
+          "dir": 8,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.2,
+          "gust": 10.9,
+          "temp": 9.9,
+          "precip": 0,
+          "dir": 28,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.4,
+          "gust": 12.2,
+          "temp": 9.6,
+          "precip": 0,
+          "dir": 43,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.0,
+          "gust": 13.0,
+          "temp": 8.9,
+          "precip": 0,
+          "dir": 53,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.0,
+          "gust": 12.6,
+          "temp": 8.3,
+          "precip": 0,
+          "dir": 47,
           "reason": "vent off-shore"
         }
       ]
@@ -353,160 +364,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-04-22T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 9.6,
-          "gust": 11.5,
-          "temp": 8.4,
-          "precip": 0,
-          "dir": 42,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 7.0,
-          "gust": 8.2,
-          "temp": 9.4,
-          "precip": 0,
-          "dir": 44,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 5.5,
-          "gust": 6.2,
-          "temp": 11.2,
-          "precip": 0,
-          "dir": 42,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 6.8,
-          "gust": 7.4,
-          "temp": 12.6,
-          "precip": 0,
-          "dir": 51,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 6.4,
-          "gust": 6.8,
-          "temp": 13.2,
-          "precip": 0,
-          "dir": 55,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 6.5,
-          "gust": 7.4,
-          "temp": 14.5,
-          "precip": 0,
-          "dir": 80,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.3,
-          "gust": 6.0,
-          "temp": 14.8,
-          "precip": 0,
-          "dir": 82,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.4,
-          "gust": 5.8,
-          "temp": 15.5,
-          "precip": 0,
-          "dir": 119,
-          "reason": "16°C"
-        },
-        {
-          "time": "2026-04-22T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 1.2,
-          "gust": 7.0,
-          "temp": 15.8,
-          "precip": 0,
-          "dir": 129,
-          "reason": "16°C"
-        },
-        {
-          "time": "2026-04-22T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 3.0,
-          "gust": 9.7,
-          "temp": 16.1,
-          "precip": 0,
-          "dir": 157,
-          "reason": "16°C"
-        },
-        {
-          "time": "2026-04-22T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.7,
-          "gust": 4.5,
-          "temp": 15.2,
-          "precip": 0,
-          "dir": 150,
-          "reason": "15°C"
-        },
-        {
           "time": "2026-04-23T09:00",
           "status": "red",
           "sources": {
@@ -514,11 +371,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 7.4,
-          "gust": 13.2,
-          "temp": 8.0,
+          "wind": 5.7,
+          "gust": 14.0,
+          "temp": 8.6,
           "precip": 0,
-          "dir": 313,
+          "dir": 301,
           "reason": "vent off-shore"
         },
         {
@@ -529,12 +386,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.7,
-          "gust": 15.7,
-          "temp": 9.3,
+          "wind": 9.2,
+          "gust": 16.3,
+          "temp": 9.9,
           "precip": 0,
-          "dir": 312,
-          "reason": "vent off-shore"
+          "dir": 292,
+          "reason": "10°C"
         },
         {
           "time": "2026-04-23T11:00",
@@ -544,11 +401,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.5,
-          "gust": 14.8,
-          "temp": 10.4,
+          "wind": 13.2,
+          "gust": 20.6,
+          "temp": 11.0,
           "precip": 0,
-          "dir": 312,
+          "dir": 304,
           "reason": "vent off-shore"
         },
         {
@@ -559,11 +416,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.1,
-          "gust": 16.9,
-          "temp": 11.2,
+          "wind": 12.7,
+          "gust": 21.8,
+          "temp": 11.8,
           "precip": 0,
-          "dir": 311,
+          "dir": 309,
           "reason": "vent off-shore"
         },
         {
@@ -574,11 +431,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.6,
-          "gust": 15.9,
-          "temp": 11.7,
+          "wind": 13.2,
+          "gust": 20.0,
+          "temp": 12.6,
           "precip": 0,
-          "dir": 322,
+          "dir": 315,
           "reason": "vent off-shore"
         },
         {
@@ -589,11 +446,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.1,
-          "gust": 19.2,
-          "temp": 12.1,
+          "wind": 12.8,
+          "gust": 18.9,
+          "temp": 13.0,
           "precip": 0,
-          "dir": 319,
+          "dir": 325,
           "reason": "vent off-shore"
         },
         {
@@ -604,11 +461,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.0,
-          "gust": 17.7,
-          "temp": 12.3,
+          "wind": 12.7,
+          "gust": 22.4,
+          "temp": 13.3,
           "precip": 0,
-          "dir": 317,
+          "dir": 320,
           "reason": "vent off-shore"
         },
         {
@@ -619,11 +476,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.1,
-          "gust": 16.1,
-          "temp": 12.5,
+          "wind": 12.5,
+          "gust": 18.9,
+          "temp": 13.5,
           "precip": 0,
-          "dir": 319,
+          "dir": 324,
           "reason": "vent off-shore"
         },
         {
@@ -634,11 +491,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.0,
-          "gust": 15.6,
-          "temp": 12.3,
+          "wind": 12.2,
+          "gust": 16.9,
+          "temp": 13.4,
           "precip": 0,
-          "dir": 324,
+          "dir": 327,
           "reason": "vent off-shore"
         },
         {
@@ -649,11 +506,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.5,
-          "gust": 14.4,
-          "temp": 11.5,
+          "wind": 12.2,
+          "gust": 15.9,
+          "temp": 12.8,
           "precip": 0,
-          "dir": 334,
+          "dir": 331,
           "reason": "vent off-shore"
         },
         {
@@ -664,11 +521,176 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.3,
-          "gust": 15.0,
+          "wind": 11.0,
+          "gust": 15.6,
+          "temp": 11.7,
+          "precip": 0,
+          "dir": 335,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.3,
+          "gust": 10.9,
+          "temp": 5.7,
+          "precip": 0,
+          "dir": 344,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.9,
+          "gust": 10.3,
+          "temp": 6.9,
+          "precip": 0,
+          "dir": 337,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.4,
+          "gust": 10.3,
+          "temp": 7.9,
+          "precip": 0,
+          "dir": 334,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.8,
+          "gust": 9.3,
+          "temp": 8.8,
+          "precip": 0,
+          "dir": 337,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.5,
+          "gust": 8.7,
+          "temp": 8.6,
+          "precip": 0,
+          "dir": 343,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.5,
+          "gust": 9.9,
+          "temp": 9.3,
+          "precip": 0,
+          "dir": 7,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.4,
+          "gust": 13.2,
+          "temp": 10.1,
+          "precip": 0,
+          "dir": 18,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.1,
+          "gust": 10.9,
+          "temp": 10.6,
+          "precip": 0,
+          "dir": 27,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 10.1,
+          "gust": 12.6,
           "temp": 10.2,
           "precip": 0,
-          "dir": 349,
+          "dir": 36,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 10.1,
+          "gust": 13.2,
+          "temp": 9.7,
+          "precip": 0,
+          "dir": 50,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.8,
+          "gust": 13.8,
+          "temp": 8.8,
+          "precip": 0,
+          "dir": 44,
           "reason": "vent off-shore"
         }
       ]
@@ -688,160 +710,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-04-22T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 5.8,
-          "gust": 5.8,
-          "temp": 8.0,
-          "precip": 0,
-          "dir": 33,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.6,
-          "gust": 4.5,
-          "temp": 9.4,
-          "precip": 0,
-          "dir": 28,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 5.5,
-          "gust": 5.6,
-          "temp": 11.7,
-          "precip": 0,
-          "dir": 32,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 7.0,
-          "gust": 7.2,
-          "temp": 12.9,
-          "precip": 0,
-          "dir": 48,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 8.4,
-          "gust": 8.6,
-          "temp": 12.9,
-          "precip": 0,
-          "dir": 29,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 8.4,
-          "gust": 8.9,
-          "temp": 13.0,
-          "precip": 0,
-          "dir": 44,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 5.1,
-          "gust": 6.0,
-          "temp": 14.5,
-          "precip": 0,
-          "dir": 40,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.5,
-          "gust": 4.7,
-          "temp": 15.1,
-          "precip": 0,
-          "dir": 58,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.2,
-          "gust": 5.8,
-          "temp": 14.9,
-          "precip": 0,
-          "dir": 53,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.8,
-          "gust": 5.1,
-          "temp": 15.1,
-          "precip": 0,
-          "dir": 102,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 3.5,
-          "gust": 4.1,
-          "temp": 14.6,
-          "precip": 0,
-          "dir": 93,
-          "reason": "vent off-shore"
-        },
-        {
           "time": "2026-04-23T09:00",
           "status": "red",
           "sources": {
@@ -849,12 +717,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 6.6,
-          "gust": 12.2,
-          "temp": 7.9,
+          "wind": 7.8,
+          "gust": 13.4,
+          "temp": 8.7,
           "precip": 0,
-          "dir": 326,
-          "reason": "8°C"
+          "dir": 316,
+          "reason": "9°C"
         },
         {
           "time": "2026-04-23T10:00",
@@ -864,12 +732,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.8,
-          "gust": 15.7,
-          "temp": 8.8,
+          "wind": 8.6,
+          "gust": 16.5,
+          "temp": 9.6,
           "precip": 0,
-          "dir": 317,
-          "reason": "9°C"
+          "dir": 301,
+          "reason": "10°C"
         },
         {
           "time": "2026-04-23T11:00",
@@ -879,12 +747,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.4,
-          "gust": 13.4,
-          "temp": 9.9,
+          "wind": 10.6,
+          "gust": 18.1,
+          "temp": 10.8,
           "precip": 0,
-          "dir": 318,
-          "reason": "10°C"
+          "dir": 294,
+          "reason": "11°C"
         },
         {
           "time": "2026-04-23T12:00",
@@ -894,12 +762,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.6,
-          "gust": 15.0,
-          "temp": 11.1,
+          "wind": 12.8,
+          "gust": 17.1,
+          "temp": 11.8,
           "precip": 0,
-          "dir": 317,
-          "reason": "11°C"
+          "dir": 306,
+          "reason": "12°C"
         },
         {
           "time": "2026-04-23T13:00",
@@ -909,11 +777,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.6,
-          "gust": 13.4,
-          "temp": 12.0,
+          "wind": 12.8,
+          "gust": 18.5,
+          "temp": 12.5,
           "precip": 0,
-          "dir": 320,
+          "dir": 311,
           "reason": "12°C"
         },
         {
@@ -924,12 +792,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.3,
-          "gust": 17.1,
-          "temp": 12.3,
+          "wind": 13.1,
+          "gust": 17.7,
+          "temp": 12.9,
           "precip": 0,
-          "dir": 319,
-          "reason": "12°C"
+          "dir": 318,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T15:00",
@@ -939,12 +807,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.0,
-          "gust": 16.9,
-          "temp": 12.4,
+          "wind": 12.8,
+          "gust": 16.7,
+          "temp": 13.2,
           "precip": 0,
-          "dir": 318,
-          "reason": "12°C"
+          "dir": 316,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T16:00",
@@ -954,12 +822,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.8,
-          "gust": 15.4,
-          "temp": 12.4,
+          "wind": 12.5,
+          "gust": 20.0,
+          "temp": 13.2,
           "precip": 0,
-          "dir": 315,
-          "reason": "12°C"
+          "dir": 318,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T17:00",
@@ -969,12 +837,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.4,
-          "gust": 14.6,
-          "temp": 12.2,
+          "wind": 11.7,
+          "gust": 18.7,
+          "temp": 13.1,
           "precip": 0,
-          "dir": 322,
-          "reason": "12°C"
+          "dir": 321,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T18:00",
@@ -984,12 +852,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.5,
-          "gust": 15.0,
-          "temp": 11.5,
+          "wind": 11.3,
+          "gust": 15.9,
+          "temp": 12.7,
           "precip": 0,
-          "dir": 327,
-          "reason": "12°C"
+          "dir": 328,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T19:00",
@@ -999,12 +867,177 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.1,
-          "gust": 14.6,
-          "temp": 10.5,
+          "wind": 11.2,
+          "gust": 16.5,
+          "temp": 11.6,
           "precip": 0,
-          "dir": 335,
-          "reason": "10°C"
+          "dir": 340,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.2,
+          "gust": 12.4,
+          "temp": 5.3,
+          "precip": 0,
+          "dir": 342,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.9,
+          "gust": 11.7,
+          "temp": 6.5,
+          "precip": 0,
+          "dir": 337,
+          "reason": "6°C"
+        },
+        {
+          "time": "2026-04-24T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.0,
+          "gust": 11.1,
+          "temp": 7.6,
+          "precip": 0,
+          "dir": 333,
+          "reason": "8°C"
+        },
+        {
+          "time": "2026-04-24T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.4,
+          "gust": 11.3,
+          "temp": 8.5,
+          "precip": 0,
+          "dir": 336,
+          "reason": "8°C"
+        },
+        {
+          "time": "2026-04-24T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.4,
+          "gust": 9.9,
+          "temp": 8.4,
+          "precip": 0,
+          "dir": 340,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.8,
+          "gust": 10.7,
+          "temp": 8.5,
+          "precip": 0,
+          "dir": 356,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.1,
+          "gust": 9.9,
+          "temp": 9.6,
+          "precip": 0,
+          "dir": 22,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.4,
+          "gust": 10.1,
+          "temp": 9.5,
+          "precip": 0,
+          "dir": 47,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 10.0,
+          "gust": 12.6,
+          "temp": 8.9,
+          "precip": 0,
+          "dir": 51,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.1,
+          "gust": 12.6,
+          "temp": 8.5,
+          "precip": 0,
+          "dir": 48,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.3,
+          "gust": 13.0,
+          "temp": 7.8,
+          "precip": 0,
+          "dir": 49,
+          "reason": "vent off-shore"
         }
       ]
     },
@@ -1023,160 +1056,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-04-22T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.4,
-          "gust": 5.1,
-          "temp": 7.7,
-          "precip": 0,
-          "dir": 41,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 1.4,
-          "gust": 2.5,
-          "temp": 9.5,
-          "precip": 0,
-          "dir": 34,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.7,
-          "gust": 3.1,
-          "temp": 11.5,
-          "precip": 0,
-          "dir": 4,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 3.6,
-          "gust": 5.1,
-          "temp": 12.5,
-          "precip": 0,
-          "dir": 45,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.5,
-          "gust": 4.1,
-          "temp": 13.4,
-          "precip": 0,
-          "dir": 32,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 3.4,
-          "gust": 5.2,
-          "temp": 14.1,
-          "precip": 0,
-          "dir": 74,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 1.1,
-          "gust": 6.8,
-          "temp": 15.3,
-          "precip": 0,
-          "dir": 59,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.2,
-          "gust": 6.4,
-          "temp": 15.4,
-          "precip": 0,
-          "dir": 142,
-          "reason": "15°C"
-        },
-        {
-          "time": "2026-04-22T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 3.7,
-          "gust": 7.2,
-          "temp": 15.4,
-          "precip": 0,
-          "dir": 133,
-          "reason": "15°C"
-        },
-        {
-          "time": "2026-04-22T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.6,
-          "gust": 4.7,
-          "temp": 15.6,
-          "precip": 0,
-          "dir": 81,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.4,
-          "gust": 4.5,
-          "temp": 13.6,
-          "precip": 0,
-          "dir": 125,
-          "reason": "14°C"
-        },
-        {
           "time": "2026-04-23T09:00",
           "status": "red",
           "sources": {
@@ -1184,11 +1063,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 6.3,
-          "gust": 9.1,
-          "temp": 7.7,
+          "wind": 6.6,
+          "gust": 11.3,
+          "temp": 8.1,
           "precip": 0,
-          "dir": 315,
+          "dir": 304,
           "reason": "vent off-shore"
         },
         {
@@ -1199,11 +1078,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.1,
-          "gust": 14.0,
-          "temp": 8.5,
+          "wind": 9.4,
+          "gust": 14.8,
+          "temp": 9.2,
           "precip": 0,
-          "dir": 311,
+          "dir": 297,
           "reason": "vent off-shore"
         },
         {
@@ -1214,11 +1093,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.7,
-          "gust": 16.9,
-          "temp": 9.2,
+          "wind": 11.0,
+          "gust": 15.7,
+          "temp": 10.2,
           "precip": 0,
-          "dir": 317,
+          "dir": 295,
           "reason": "vent off-shore"
         },
         {
@@ -1229,11 +1108,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.9,
-          "gust": 16.5,
-          "temp": 10.6,
+          "wind": 12.3,
+          "gust": 16.1,
+          "temp": 11.6,
           "precip": 0,
-          "dir": 311,
+          "dir": 301,
           "reason": "vent off-shore"
         },
         {
@@ -1244,11 +1123,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.8,
-          "gust": 15.2,
-          "temp": 11.9,
+          "wind": 13.0,
+          "gust": 19.4,
+          "temp": 12.7,
           "precip": 0,
-          "dir": 322,
+          "dir": 305,
           "reason": "vent off-shore"
         },
         {
@@ -1259,11 +1138,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.9,
-          "gust": 17.5,
-          "temp": 12.5,
+          "wind": 12.8,
+          "gust": 16.3,
+          "temp": 13.6,
           "precip": 0,
-          "dir": 316,
+          "dir": 314,
           "reason": "vent off-shore"
         },
         {
@@ -1274,11 +1153,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 13.1,
-          "gust": 16.1,
-          "temp": 12.7,
+          "wind": 13.2,
+          "gust": 19.0,
+          "temp": 14.0,
           "precip": 0,
-          "dir": 317,
+          "dir": 314,
           "reason": "vent off-shore"
         },
         {
@@ -1289,11 +1168,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.4,
-          "gust": 15.2,
-          "temp": 12.9,
+          "wind": 12.5,
+          "gust": 16.1,
+          "temp": 14.1,
           "precip": 0,
-          "dir": 325,
+          "dir": 311,
           "reason": "vent off-shore"
         },
         {
@@ -1305,10 +1184,10 @@
             "met_norway": "red"
           },
           "wind": 12.3,
-          "gust": 15.2,
-          "temp": 12.8,
+          "gust": 15.9,
+          "temp": 13.8,
           "precip": 0,
-          "dir": 331,
+          "dir": 309,
           "reason": "vent off-shore"
         },
         {
@@ -1319,11 +1198,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.4,
-          "gust": 16.1,
-          "temp": 12.2,
+          "wind": 11.8,
+          "gust": 15.9,
+          "temp": 13.4,
           "precip": 0,
-          "dir": 323,
+          "dir": 315,
           "reason": "vent off-shore"
         },
         {
@@ -1334,11 +1213,176 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.7,
-          "gust": 14.4,
-          "temp": 10.9,
+          "wind": 10.3,
+          "gust": 16.3,
+          "temp": 11.9,
           "precip": 0,
-          "dir": 338,
+          "dir": 332,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.3,
+          "gust": 9.3,
+          "temp": 4.6,
+          "precip": 0,
+          "dir": 351,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.1,
+          "gust": 8.4,
+          "temp": 5.9,
+          "precip": 0,
+          "dir": 335,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.0,
+          "gust": 8.7,
+          "temp": 7.4,
+          "precip": 0,
+          "dir": 312,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.9,
+          "gust": 9.3,
+          "temp": 8.5,
+          "precip": 0,
+          "dir": 332,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.3,
+          "gust": 9.5,
+          "temp": 9.5,
+          "precip": 0,
+          "dir": 348,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.0,
+          "gust": 10.5,
+          "temp": 10.0,
+          "precip": 0,
+          "dir": 4,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.0,
+          "gust": 10.9,
+          "temp": 10.4,
+          "precip": 0,
+          "dir": 14,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.0,
+          "gust": 11.1,
+          "temp": 10.5,
+          "precip": 0,
+          "dir": 30,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 10.0,
+          "gust": 12.4,
+          "temp": 10.0,
+          "precip": 0,
+          "dir": 37,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.5,
+          "gust": 12.6,
+          "temp": 9.3,
+          "precip": 0,
+          "dir": 43,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.0,
+          "gust": 13.0,
+          "temp": 8.2,
+          "precip": 0,
+          "dir": 60,
           "reason": "vent off-shore"
         }
       ]
@@ -1358,160 +1402,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-04-22T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 3.9,
-          "gust": 4.3,
-          "temp": 8.5,
-          "precip": 0,
-          "dir": 37,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 0.2,
-          "gust": 1.4,
-          "temp": 10.5,
-          "precip": 0,
-          "dir": 270,
-          "reason": "10°C"
-        },
-        {
-          "time": "2026-04-22T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 3.7,
-          "gust": 3.7,
-          "temp": 12.2,
-          "precip": 0,
-          "dir": 321,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-04-22T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.9,
-          "gust": 3.3,
-          "temp": 13.7,
-          "precip": 0,
-          "dir": 360,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-04-22T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.1,
-          "gust": 4.7,
-          "temp": 14.7,
-          "precip": 0,
-          "dir": 5,
-          "reason": "15°C"
-        },
-        {
-          "time": "2026-04-22T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.0,
-          "gust": 6.2,
-          "temp": 15.1,
-          "precip": 0,
-          "dir": 23,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.1,
-          "gust": 6.0,
-          "temp": 15.5,
-          "precip": 0,
-          "dir": 19,
-          "reason": "16°C"
-        },
-        {
-          "time": "2026-04-22T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.7,
-          "gust": 7.0,
-          "temp": 15.9,
-          "precip": 0,
-          "dir": 262,
-          "reason": "16°C"
-        },
-        {
-          "time": "2026-04-22T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.8,
-          "gust": 7.0,
-          "temp": 16.0,
-          "precip": 0,
-          "dir": 295,
-          "reason": "16°C"
-        },
-        {
-          "time": "2026-04-22T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 1.8,
-          "gust": 4.9,
-          "temp": 15.9,
-          "precip": 0,
-          "dir": 6,
-          "reason": "16°C"
-        },
-        {
-          "time": "2026-04-22T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.1,
-          "gust": 4.1,
-          "temp": 15.2,
-          "precip": 0,
-          "dir": 95,
-          "reason": "vent off-shore"
-        },
-        {
           "time": "2026-04-23T09:00",
           "status": "red",
           "sources": {
@@ -1519,11 +1409,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 6.6,
-          "gust": 13.2,
-          "temp": 7.6,
+          "wind": 6.2,
+          "gust": 10.9,
+          "temp": 8.1,
           "precip": 0,
-          "dir": 315,
+          "dir": 298,
           "reason": "8°C"
         },
         {
@@ -1535,11 +1425,11 @@
             "met_norway": "red"
           },
           "wind": 8.3,
-          "gust": 15.9,
-          "temp": 8.5,
+          "gust": 19.0,
+          "temp": 9.1,
           "precip": 0,
-          "dir": 309,
-          "reason": "8°C"
+          "dir": 295,
+          "reason": "9°C"
         },
         {
           "time": "2026-04-23T11:00",
@@ -1549,12 +1439,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.3,
-          "gust": 15.9,
-          "temp": 9.4,
+          "wind": 11.1,
+          "gust": 21.2,
+          "temp": 10.4,
           "precip": 0,
-          "dir": 311,
-          "reason": "9°C"
+          "dir": 303,
+          "reason": "10°C"
         },
         {
           "time": "2026-04-23T12:00",
@@ -1564,12 +1454,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.7,
-          "gust": 17.1,
-          "temp": 10.8,
+          "wind": 11.4,
+          "gust": 16.5,
+          "temp": 11.9,
           "precip": 0,
-          "dir": 307,
-          "reason": "11°C"
+          "dir": 310,
+          "reason": "12°C"
         },
         {
           "time": "2026-04-23T13:00",
@@ -1579,12 +1469,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.2,
-          "gust": 15.4,
-          "temp": 12.0,
+          "wind": 12.1,
+          "gust": 19.2,
+          "temp": 13.0,
           "precip": 0,
-          "dir": 320,
-          "reason": "12°C"
+          "dir": 312,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T14:00",
@@ -1594,12 +1484,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.8,
-          "gust": 17.9,
-          "temp": 12.6,
+          "wind": 12.6,
+          "gust": 17.1,
+          "temp": 13.6,
           "precip": 0,
-          "dir": 318,
-          "reason": "13°C"
+          "dir": 322,
+          "reason": "14°C"
         },
         {
           "time": "2026-04-23T15:00",
@@ -1609,12 +1499,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.1,
-          "gust": 16.3,
-          "temp": 12.8,
+          "wind": 12.6,
+          "gust": 19.4,
+          "temp": 13.9,
           "precip": 0,
-          "dir": 316,
-          "reason": "13°C"
+          "dir": 314,
+          "reason": "14°C"
         },
         {
           "time": "2026-04-23T16:00",
@@ -1624,12 +1514,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.7,
-          "gust": 15.2,
-          "temp": 13.0,
+          "wind": 12.6,
+          "gust": 16.7,
+          "temp": 13.9,
           "precip": 0,
-          "dir": 312,
-          "reason": "13°C"
+          "dir": 316,
+          "reason": "14°C"
         },
         {
           "time": "2026-04-23T17:00",
@@ -1639,12 +1529,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.9,
-          "gust": 14.4,
-          "temp": 12.8,
+          "wind": 12.2,
+          "gust": 16.5,
+          "temp": 13.7,
           "precip": 0,
-          "dir": 319,
-          "reason": "13°C"
+          "dir": 316,
+          "reason": "14°C"
         },
         {
           "time": "2026-04-23T18:00",
@@ -1654,12 +1544,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.8,
-          "gust": 14.4,
-          "temp": 12.2,
+          "wind": 11.8,
+          "gust": 16.5,
+          "temp": 13.3,
           "precip": 0,
-          "dir": 334,
-          "reason": "12°C"
+          "dir": 319,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T19:00",
@@ -1669,12 +1559,177 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.7,
-          "gust": 16.1,
-          "temp": 10.8,
+          "wind": 9.4,
+          "gust": 15.0,
+          "temp": 12.2,
           "precip": 0,
-          "dir": 341,
-          "reason": "11°C"
+          "dir": 326,
+          "reason": "12°C"
+        },
+        {
+          "time": "2026-04-24T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.9,
+          "gust": 9.9,
+          "temp": 4.7,
+          "precip": 0,
+          "dir": 344,
+          "reason": "5°C"
+        },
+        {
+          "time": "2026-04-24T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.5,
+          "gust": 9.5,
+          "temp": 5.7,
+          "precip": 0,
+          "dir": 321,
+          "reason": "6°C"
+        },
+        {
+          "time": "2026-04-24T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.5,
+          "gust": 10.9,
+          "temp": 7.1,
+          "precip": 0,
+          "dir": 314,
+          "reason": "7°C"
+        },
+        {
+          "time": "2026-04-24T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.0,
+          "gust": 14.0,
+          "temp": 8.6,
+          "precip": 0,
+          "dir": 326,
+          "reason": "9°C"
+        },
+        {
+          "time": "2026-04-24T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.1,
+          "gust": 13.2,
+          "temp": 9.6,
+          "precip": 0,
+          "dir": 333,
+          "reason": "10°C"
+        },
+        {
+          "time": "2026-04-24T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.2,
+          "gust": 10.7,
+          "temp": 10.0,
+          "precip": 0,
+          "dir": 354,
+          "reason": "10°C"
+        },
+        {
+          "time": "2026-04-24T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.1,
+          "gust": 10.7,
+          "temp": 10.3,
+          "precip": 0,
+          "dir": 16,
+          "reason": "10°C"
+        },
+        {
+          "time": "2026-04-24T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.8,
+          "gust": 12.1,
+          "temp": 10.3,
+          "precip": 0,
+          "dir": 18,
+          "reason": "10°C"
+        },
+        {
+          "time": "2026-04-24T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.3,
+          "gust": 11.1,
+          "temp": 10.1,
+          "precip": 0,
+          "dir": 39,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 10.5,
+          "gust": 13.2,
+          "temp": 8.9,
+          "precip": 0,
+          "dir": 50,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.1,
+          "gust": 13.0,
+          "temp": 8.2,
+          "precip": 0,
+          "dir": 52,
+          "reason": "vent off-shore"
         }
       ]
     },
@@ -1693,160 +1748,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-04-22T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 7.4,
-          "gust": 9.3,
-          "temp": 7.2,
-          "precip": 0,
-          "dir": 30,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 5.4,
-          "gust": 7.2,
-          "temp": 8.7,
-          "precip": 0,
-          "dir": 55,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.7,
-          "gust": 6.2,
-          "temp": 10.2,
-          "precip": 0,
-          "dir": 48,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 5.0,
-          "gust": 6.0,
-          "temp": 11.2,
-          "precip": 0,
-          "dir": 31,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 6.4,
-          "gust": 7.4,
-          "temp": 12.7,
-          "precip": 0,
-          "dir": 20,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-04-22T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 7.1,
-          "gust": 7.6,
-          "temp": 13.3,
-          "precip": 0,
-          "dir": 45,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 3.9,
-          "gust": 4.5,
-          "temp": 14.4,
-          "precip": 0,
-          "dir": 37,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 0.9,
-          "gust": 5.8,
-          "temp": 15.5,
-          "precip": 0,
-          "dir": 63,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 1.4,
-          "gust": 4.1,
-          "temp": 15.4,
-          "precip": 0,
-          "dir": 45,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.8,
-          "gust": 7.8,
-          "temp": 15.8,
-          "precip": 0,
-          "dir": 129,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.8,
-          "gust": 5.6,
-          "temp": 14.0,
-          "precip": 0,
-          "dir": 115,
-          "reason": "vent off-shore"
-        },
-        {
           "time": "2026-04-23T09:00",
           "status": "red",
           "sources": {
@@ -1855,10 +1756,10 @@
             "met_norway": "red"
           },
           "wind": 5.8,
-          "gust": 12.2,
-          "temp": 6.9,
+          "gust": 13.8,
+          "temp": 7.4,
           "precip": 0,
-          "dir": 323,
+          "dir": 315,
           "reason": "7°C"
         },
         {
@@ -1869,11 +1770,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 7.6,
-          "gust": 15.2,
-          "temp": 7.9,
+          "wind": 7.8,
+          "gust": 16.7,
+          "temp": 8.5,
           "precip": 0,
-          "dir": 320,
+          "dir": 305,
           "reason": "8°C"
         },
         {
@@ -1884,12 +1785,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.4,
-          "gust": 13.4,
-          "temp": 9.1,
+          "wind": 10.4,
+          "gust": 17.3,
+          "temp": 10.0,
           "precip": 0,
-          "dir": 322,
-          "reason": "9°C"
+          "dir": 308,
+          "reason": "10°C"
         },
         {
           "time": "2026-04-23T12:00",
@@ -1899,12 +1800,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.7,
-          "gust": 15.2,
-          "temp": 10.3,
+          "wind": 11.1,
+          "gust": 17.9,
+          "temp": 11.2,
           "precip": 0,
-          "dir": 322,
-          "reason": "10°C"
+          "dir": 308,
+          "reason": "11°C"
         },
         {
           "time": "2026-04-23T13:00",
@@ -1914,12 +1815,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.5,
-          "gust": 16.9,
-          "temp": 11.3,
+          "wind": 11.6,
+          "gust": 15.7,
+          "temp": 12.1,
           "precip": 0,
-          "dir": 322,
-          "reason": "11°C"
+          "dir": 311,
+          "reason": "12°C"
         },
         {
           "time": "2026-04-23T14:00",
@@ -1929,12 +1830,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.8,
-          "gust": 16.5,
-          "temp": 11.9,
+          "wind": 11.0,
+          "gust": 14.4,
+          "temp": 12.6,
           "precip": 0,
-          "dir": 324,
-          "reason": "12°C"
+          "dir": 318,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T15:00",
@@ -1944,12 +1845,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.0,
-          "gust": 15.2,
-          "temp": 12.2,
+          "wind": 11.7,
+          "gust": 19.8,
+          "temp": 13.0,
           "precip": 0,
           "dir": 316,
-          "reason": "12°C"
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T16:00",
@@ -1959,12 +1860,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.0,
-          "gust": 14.4,
-          "temp": 12.2,
+          "wind": 11.7,
+          "gust": 18.9,
+          "temp": 13.1,
           "precip": 0,
-          "dir": 312,
-          "reason": "12°C"
+          "dir": 314,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T17:00",
@@ -1974,12 +1875,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.8,
-          "gust": 14.0,
-          "temp": 12.0,
+          "wind": 11.3,
+          "gust": 17.5,
+          "temp": 13.0,
           "precip": 0,
-          "dir": 319,
-          "reason": "12°C"
+          "dir": 318,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T18:00",
@@ -1989,12 +1890,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.1,
-          "gust": 13.8,
-          "temp": 11.3,
+          "wind": 10.9,
+          "gust": 15.2,
+          "temp": 12.5,
           "precip": 0,
-          "dir": 332,
-          "reason": "11°C"
+          "dir": 319,
+          "reason": "12°C"
         },
         {
           "time": "2026-04-23T19:00",
@@ -2004,12 +1905,177 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.1,
-          "gust": 14.0,
-          "temp": 10.0,
+          "wind": 8.5,
+          "gust": 13.4,
+          "temp": 11.5,
           "precip": 0,
-          "dir": 350,
-          "reason": "10°C"
+          "dir": 317,
+          "reason": "12°C"
+        },
+        {
+          "time": "2026-04-24T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.9,
+          "gust": 13.2,
+          "temp": 4.6,
+          "precip": 0,
+          "dir": 345,
+          "reason": "5°C"
+        },
+        {
+          "time": "2026-04-24T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.2,
+          "gust": 12.2,
+          "temp": 5.6,
+          "precip": 0,
+          "dir": 339,
+          "reason": "6°C"
+        },
+        {
+          "time": "2026-04-24T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.2,
+          "gust": 11.5,
+          "temp": 6.5,
+          "precip": 0,
+          "dir": 333,
+          "reason": "6°C"
+        },
+        {
+          "time": "2026-04-24T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.4,
+          "gust": 9.9,
+          "temp": 7.4,
+          "precip": 0,
+          "dir": 340,
+          "reason": "7°C"
+        },
+        {
+          "time": "2026-04-24T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.3,
+          "gust": 13.4,
+          "temp": 7.7,
+          "precip": 0,
+          "dir": 349,
+          "reason": "8°C"
+        },
+        {
+          "time": "2026-04-24T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.4,
+          "gust": 10.1,
+          "temp": 8.3,
+          "precip": 0,
+          "dir": 3,
+          "reason": "8°C"
+        },
+        {
+          "time": "2026-04-24T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.6,
+          "gust": 9.7,
+          "temp": 9.4,
+          "precip": 0,
+          "dir": 19,
+          "reason": "9°C"
+        },
+        {
+          "time": "2026-04-24T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.1,
+          "gust": 10.9,
+          "temp": 9.4,
+          "precip": 0,
+          "dir": 33,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.7,
+          "gust": 12.6,
+          "temp": 9.0,
+          "precip": 0,
+          "dir": 40,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.7,
+          "gust": 12.4,
+          "temp": 8.5,
+          "precip": 0,
+          "dir": 47,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.4,
+          "gust": 13.2,
+          "temp": 8.0,
+          "precip": 0,
+          "dir": 35,
+          "reason": "vent off-shore"
         }
       ]
     },
@@ -2028,160 +2094,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-04-22T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 5.3,
-          "gust": 6.2,
-          "temp": 8.7,
-          "precip": 0,
-          "dir": 36,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.1,
-          "gust": 5.6,
-          "temp": 10.3,
-          "precip": 0,
-          "dir": 65,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.4,
-          "gust": 5.1,
-          "temp": 11.8,
-          "precip": 0,
-          "dir": 75,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.1,
-          "gust": 5.2,
-          "temp": 13.0,
-          "precip": 0,
-          "dir": 65,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.3,
-          "gust": 5.6,
-          "temp": 14.1,
-          "precip": 0,
-          "dir": 80,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 5.1,
-          "gust": 6.2,
-          "temp": 14.5,
-          "precip": 0,
-          "dir": 72,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.5,
-          "gust": 3.7,
-          "temp": 15.3,
-          "precip": 0,
-          "dir": 23,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 0.9,
-          "gust": 3.3,
-          "temp": 16.0,
-          "precip": 0,
-          "dir": 297,
-          "reason": "16°C"
-        },
-        {
-          "time": "2026-04-22T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 2.1,
-          "gust": 5.4,
-          "temp": 15.6,
-          "precip": 0,
-          "dir": 326,
-          "reason": "16°C"
-        },
-        {
-          "time": "2026-04-22T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 1.2,
-          "gust": 5.8,
-          "temp": 15.9,
-          "precip": 0,
-          "dir": 141,
-          "reason": "vent off-shore"
-        },
-        {
-          "time": "2026-04-22T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red"
-          },
-          "wind": 4.1,
-          "gust": 5.6,
-          "temp": 15.0,
-          "precip": 0,
-          "dir": 121,
-          "reason": "vent off-shore"
-        },
-        {
           "time": "2026-04-23T09:00",
           "status": "red",
           "sources": {
@@ -2189,11 +2101,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 5.4,
-          "gust": 11.7,
-          "temp": 7.7,
+          "wind": 6.5,
+          "gust": 13.2,
+          "temp": 8.4,
           "precip": 0,
-          "dir": 319,
+          "dir": 321,
           "reason": "8°C"
         },
         {
@@ -2204,11 +2116,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.1,
-          "gust": 15.6,
-          "temp": 8.7,
+          "wind": 7.9,
+          "gust": 16.5,
+          "temp": 9.4,
           "precip": 0,
-          "dir": 318,
+          "dir": 303,
           "reason": "9°C"
         },
         {
@@ -2219,12 +2131,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.1,
-          "gust": 13.4,
-          "temp": 9.9,
+          "wind": 9.3,
+          "gust": 16.5,
+          "temp": 10.9,
           "precip": 0,
-          "dir": 325,
-          "reason": "10°C"
+          "dir": 306,
+          "reason": "11°C"
         },
         {
           "time": "2026-04-23T12:00",
@@ -2234,12 +2146,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.3,
-          "gust": 15.0,
-          "temp": 11.1,
+          "wind": 12.8,
+          "gust": 20.4,
+          "temp": 11.7,
           "precip": 0,
-          "dir": 323,
-          "reason": "11°C"
+          "dir": 306,
+          "reason": "12°C"
         },
         {
           "time": "2026-04-23T13:00",
@@ -2249,11 +2161,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.3,
-          "gust": 17.1,
-          "temp": 11.7,
+          "wind": 12.5,
+          "gust": 18.1,
+          "temp": 12.3,
           "precip": 0,
-          "dir": 328,
+          "dir": 312,
           "reason": "12°C"
         },
         {
@@ -2264,12 +2176,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.0,
-          "gust": 16.9,
-          "temp": 12.1,
+          "wind": 11.7,
+          "gust": 15.9,
+          "temp": 12.7,
           "precip": 0,
-          "dir": 323,
-          "reason": "12°C"
+          "dir": 320,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T15:00",
@@ -2279,12 +2191,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.4,
-          "gust": 16.1,
-          "temp": 12.3,
+          "wind": 12.0,
+          "gust": 15.6,
+          "temp": 13.0,
           "precip": 0,
-          "dir": 318,
-          "reason": "12°C"
+          "dir": 317,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T16:00",
@@ -2294,12 +2206,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.3,
-          "gust": 15.0,
-          "temp": 12.2,
+          "wind": 11.7,
+          "gust": 18.9,
+          "temp": 13.1,
           "precip": 0,
-          "dir": 316,
-          "reason": "12°C"
+          "dir": 317,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T17:00",
@@ -2309,12 +2221,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.0,
-          "gust": 14.6,
-          "temp": 12.0,
+          "wind": 11.2,
+          "gust": 18.1,
+          "temp": 13.0,
           "precip": 0,
           "dir": 323,
-          "reason": "12°C"
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T18:00",
@@ -2324,12 +2236,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.7,
-          "gust": 14.2,
-          "temp": 11.5,
+          "wind": 11.2,
+          "gust": 15.7,
+          "temp": 12.6,
           "precip": 0,
-          "dir": 325,
-          "reason": "12°C"
+          "dir": 329,
+          "reason": "13°C"
         },
         {
           "time": "2026-04-23T19:00",
@@ -2339,11 +2251,176 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.3,
-          "gust": 14.0,
-          "temp": 10.3,
+          "wind": 10.3,
+          "gust": 15.9,
+          "temp": 11.5,
           "precip": 0,
-          "dir": 344,
+          "dir": 328,
+          "reason": "12°C"
+        },
+        {
+          "time": "2026-04-24T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.6,
+          "gust": 12.8,
+          "temp": 5.3,
+          "precip": 0,
+          "dir": 342,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.7,
+          "gust": 11.3,
+          "temp": 6.4,
+          "precip": 0,
+          "dir": 339,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.2,
+          "gust": 11.3,
+          "temp": 7.4,
+          "precip": 0,
+          "dir": 339,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.1,
+          "gust": 10.3,
+          "temp": 8.0,
+          "precip": 0,
+          "dir": 339,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.4,
+          "gust": 9.7,
+          "temp": 8.3,
+          "precip": 0,
+          "dir": 346,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.8,
+          "gust": 10.7,
+          "temp": 8.9,
+          "precip": 0,
+          "dir": 3,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.5,
+          "gust": 10.3,
+          "temp": 9.7,
+          "precip": 0,
+          "dir": 16,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.5,
+          "gust": 10.9,
+          "temp": 9.9,
+          "precip": 0,
+          "dir": 27,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 9.0,
+          "gust": 12.6,
+          "temp": 9.4,
+          "precip": 0,
+          "dir": 37,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.9,
+          "gust": 12.6,
+          "temp": 8.7,
+          "precip": 0,
+          "dir": 44,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-04-24T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.3,
+          "gust": 13.0,
+          "temp": 8.3,
+          "precip": 0,
+          "dir": 41,
           "reason": "vent off-shore"
         }
       ]
