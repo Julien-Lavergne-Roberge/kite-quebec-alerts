@@ -26,7 +26,8 @@ from config import (
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 DASHBOARD_URL = os.environ.get(
-    "DASHBOARD_URL", "https://YOURUSER.github.io/kite-quebec-alerts/"
+    "DASHBOARD_URL",
+    "https://julien-lavergne-roberge.github.io/kite-quebec-alerts/",
 )
 
 OPEN_METEO_URL = "https://api.open-meteo.com/v1/forecast"

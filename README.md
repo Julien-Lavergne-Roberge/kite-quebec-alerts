@@ -50,7 +50,7 @@ New repository secret, ajoute :
 
 - `TELEGRAM_TOKEN` : le nouveau token du bot
 - `TELEGRAM_CHAT_ID` : ton chat_id
-- `DASHBOARD_URL` : `https://<TON_USER>.github.io/kite-quebec-alerts/`
+- `DASHBOARD_URL` : `https://julien-lavergne-roberge.github.io/kite-quebec-alerts/`
 
 ### 5. Activer GitHub Pages
 
