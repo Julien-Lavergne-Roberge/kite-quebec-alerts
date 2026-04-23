@@ -8,12 +8,15 @@ at least one spot has green conditions today or tomorrow.
 import json
 import os
 import sys
+import time
 import zoneinfo
 from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 from config import (
     COMPASS,
@@ -36,6 +39,21 @@ MET_NORWAY_UA = "KiteQuebecAlerts/1.0 github.com/kite-quebec-alerts"
 
 TZ = zoneinfo.ZoneInfo(TIMEZONE)
 
+HTTP_TIMEOUT = 30
+
+def _session():
+    s = requests.Session()
+    retry = Retry(
+        total=2,
+        backoff_factor=1.5,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset(["GET"]),
+    )
+    s.mount("https://", HTTPAdapter(max_retries=retry))
+    return s
+
+SESSION = _session()
+
 
 def fetch_open_meteo(lat, lon, model="best_match"):
     params = {
@@ -47,18 +65,18 @@ def fetch_open_meteo(lat, lon, model="best_match"):
         "forecast_days": 2,
         "models": model,
     }
-    r = requests.get(OPEN_METEO_URL, params=params, timeout=20)
+    r = SESSION.get(OPEN_METEO_URL, params=params, timeout=HTTP_TIMEOUT)
     r.raise_for_status()
     return r.json()
 
 
 def fetch_met_norway(lat, lon):
     headers = {"User-Agent": MET_NORWAY_UA}
-    r = requests.get(
+    r = SESSION.get(
         MET_NORWAY_URL,
         params={"lat": lat, "lon": lon},
         headers=headers,
-        timeout=20,
+        timeout=HTTP_TIMEOUT,
     )
     r.raise_for_status()
     return r.json()
@@ -232,8 +250,9 @@ def build_summary():
     tomorrow = today + timedelta(days=1)
     spots_data = []
     for spot in SPOTS:
-        print(f"Checking {spot['name']}...")
+        print(f"Checking {spot['name']}...", flush=True)
         hourly = analyze_spot(spot)
+        time.sleep(0.5)
         spots_data.append({
             "name": spot["name"],
             "allowed_dirs": spot["allowed_dirs"],
