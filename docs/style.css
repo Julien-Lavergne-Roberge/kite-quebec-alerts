@@ -1,0 +1,107 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  color: #1a1a1a;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+header {
+  background: #0077cc;
+  color: white;
+  padding: 1rem;
+  padding-top: calc(1rem + env(safe-area-inset-top));
+  text-align: center;
+}
+
+header h1 { margin: 0; font-size: 1.5rem; }
+header p { margin: 0.35rem 0 0; font-size: 0.8rem; opacity: 0.9; }
+
+main {
+  padding: 1rem;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.spot {
+  background: white;
+  border-radius: 14px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.spot-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.2rem;
+}
+
+.spot-head h2 { margin: 0; font-size: 1.15rem; }
+.spot-head .status { font-size: 1.25rem; }
+.spot-head small { margin: 0 0.15rem; opacity: 0.6; font-size: 0.8rem; }
+
+.dirs {
+  margin: 0 0 0.75rem;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .days { grid-template-columns: 1fr 1fr; }
+}
+
+.day .label {
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.hours {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(62px, 1fr));
+  gap: 3px;
+}
+
+.hour {
+  padding: 0.35rem 0.25rem;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.hour.green  { background: #c6f2c9; }
+.hour.yellow { background: #fff3b3; }
+.hour.red    { background: #f9c9c9; }
+.hour.unknown{ background: #e0e0e0; }
+
+.hour .time { font-weight: 700; }
+.hour .wind { font-size: 0.75rem; }
+.hour .dir, .hour .temp { font-size: 0.65rem; color: #444; }
+
+.empty {
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  color: #888;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #666;
+}
