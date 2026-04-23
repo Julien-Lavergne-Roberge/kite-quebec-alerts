@@ -7,11 +7,14 @@ at least one spot has green conditions today or tomorrow.
 
 import json
 import os
+import smtplib
 import sys
 import time
 import zoneinfo
 from collections import Counter
 from datetime import datetime, timedelta
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 from pathlib import Path
 
 import requests
@@ -22,12 +25,17 @@ from config import (
     COMPASS,
     COMPASS_TOLERANCE,
     CRITERIA,
+    EXCELLENT_CRITERIA,
     SPOTS,
     TIMEZONE,
 )
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+GMAIL_USER = os.environ.get("GMAIL_USER")
+GMAIL_APP_PASSWORD = os.environ.get("GMAIL_APP_PASSWORD")
+FRIEND_EMAIL = os.environ.get("FRIEND_EMAIL")
+CC_EMAIL = os.environ.get("CC_EMAIL")
 DASHBOARD_URL = os.environ.get(
     "DASHBOARD_URL",
     "https://julien-lavergne-roberge.github.io/kite-quebec-alerts/",
@@ -245,6 +253,53 @@ def day_best(hourly, day_iso):
     return best["status"]
 
 
+def deg_to_cardinal(deg):
+    dirs = ["N", "NE", "E", "SE", "S", "SO", "O", "NO"]
+    return dirs[round(deg / 45) % 8]
+
+
+def find_excellent_window(hourly, day_iso):
+    """Longest consecutive run of excellent hours on a given day.
+
+    Excellent = green consensus AND wind in the tighter sweet spot.
+    Returns a dict with window info, or None.
+    """
+    ec = EXCELLENT_CRITERIA
+    day_hours = sorted(
+        (h for h in hourly if h["time"].startswith(day_iso)),
+        key=lambda h: h["time"],
+    )
+
+    def is_excellent(h):
+        return (
+            h["status"] == "green"
+            and ec["wind_min"] <= h["wind"] <= ec["wind_max"]
+        )
+
+    best, current = [], []
+    for h in day_hours:
+        if is_excellent(h):
+            current.append(h)
+            if len(current) > len(best):
+                best = current[:]
+        else:
+            current = []
+
+    if len(best) < ec["min_consecutive_hours"]:
+        return None
+
+    winds = [h["wind"] for h in best]
+    dirs = [h["dir"] for h in best]
+    return {
+        "start": best[0]["time"][11:16],
+        "end": best[-1]["time"][11:16],
+        "count": len(best),
+        "wind_min": round(min(winds)),
+        "wind_max": round(max(winds)),
+        "dominant_dir": deg_to_cardinal(sum(dirs) / len(dirs)),
+    }
+
+
 def build_summary():
     today = datetime.now(TZ).date()
     tomorrow = today + timedelta(days=1)
@@ -253,11 +308,15 @@ def build_summary():
         print(f"Checking {spot['name']}...", flush=True)
         hourly = analyze_spot(spot)
         time.sleep(0.5)
+        lat, lon = spot["lat"], spot["lon"]
         spots_data.append({
             "name": spot["name"],
+            "lat": lat,
+            "lon": lon,
             "allowed_dirs": spot["allowed_dirs"],
             "today": day_best(hourly, today.isoformat()),
             "tomorrow": day_best(hourly, tomorrow.isoformat()),
+            "excellent_tomorrow": find_excellent_window(hourly, tomorrow.isoformat()),
             "hourly": hourly,
         })
     return {
@@ -293,6 +352,66 @@ def format_telegram_message(summary):
     return "\n".join(lines)
 
 
+def format_friend_email(summary):
+    """Return (subject, body) if tomorrow has excellent spots, else None."""
+    excellent_spots = [
+        s for s in summary["spots"] if s.get("excellent_tomorrow")
+    ]
+    if not excellent_spots:
+        return None
+
+    # Pick first spot name for subject punch
+    subject = f"🪁 Demain = kite à {excellent_spots[0]['name']}!"
+    if len(excellent_spots) > 1:
+        subject = f"🪁 Demain = kite ({len(excellent_spots)} spots excellents)"
+
+    lines = [
+        "Salut!",
+        "",
+        f"Grosse journée kite prévue demain ({summary['tomorrow']}) 🌬️",
+        "",
+        "Spots excellents :",
+    ]
+    for s in excellent_spots:
+        w = s["excellent_tomorrow"]
+        lines.append(
+            f"  • {s['name']} : {w['start']}–{w['end']} "
+            f"({w['wind_min']}-{w['wind_max']} kn, {w['dominant_dir']})"
+        )
+    lines += [
+        "",
+        "On se gosse un congé?",
+        "",
+        f"Dashboard : {DASHBOARD_URL}",
+        "",
+        "— Julien (envoyé automatiquement par mon bot kite)",
+    ]
+    return subject, "\n".join(lines)
+
+
+def send_email(subject, body):
+    if not (GMAIL_USER and GMAIL_APP_PASSWORD and FRIEND_EMAIL):
+        print("Gmail/friend creds missing — printing email instead:\n")
+        print(f"Subject: {subject}\n\n{body}")
+        return
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = subject
+    msg["From"] = GMAIL_USER
+    msg["To"] = FRIEND_EMAIL
+    if CC_EMAIL:
+        msg["Cc"] = CC_EMAIL
+    msg.attach(MIMEText(body, "plain", "utf-8"))
+
+    recipients = [FRIEND_EMAIL]
+    if CC_EMAIL:
+        recipients.append(CC_EMAIL)
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        server.login(GMAIL_USER, GMAIL_APP_PASSWORD)
+        server.sendmail(GMAIL_USER, recipients, msg.as_string())
+    print(f"Email sent to {FRIEND_EMAIL}" + (f" (CC {CC_EMAIL})" if CC_EMAIL else ""))
+
+
 def send_telegram(message):
     if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
         print("Telegram creds missing — printing message instead:\n")
@@ -318,11 +437,19 @@ def main():
     docs = Path("docs")
     docs.mkdir(exist_ok=True)
     (docs / "data.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False))
+
     msg = format_telegram_message(summary)
     if msg:
         send_telegram(msg)
     else:
-        print("No green spots today or tomorrow — no alert sent.")
+        print("No green spots today or tomorrow — no Telegram sent.")
+
+    email = format_friend_email(summary)
+    if email:
+        subject, body = email
+        send_email(subject, body)
+    else:
+        print("No excellent spot tomorrow — no email sent.")
 
 
 if __name__ == "__main__":

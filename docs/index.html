@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Kite Québec</title>
+  <title>Kite Québec — Tableau</title>
   <link rel="manifest" href="manifest.json">
   <meta name="theme-color" content="#0077cc">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -14,12 +14,46 @@
 <body>
   <header>
     <h1>🪁 Kite Québec</h1>
+    <nav>
+      <a href="index.html" class="active">Tableau</a>
+      <a href="map.html">Carte</a>
+    </nav>
     <p id="generated">Chargement...</p>
   </header>
-  <main id="spots"></main>
+
+  <main>
+    <section class="legend-panel">
+      <h2>Comment lire</h2>
+      <div class="legend-grid">
+        <div class="legend-row">
+          <span class="swatch green"></span> Excellent
+          <span class="swatch yellow"></span> Marginal
+          <span class="swatch red"></span> Non kiteable
+          <span class="swatch unknown"></span> Inconnu
+        </div>
+        <div class="legend-row legend-format">
+          Format d'une cellule horaire :
+          <span class="demo-hour">
+            <span class="time">14h</span>
+            <span class="wind">18/24</span>
+            <span class="dir"><span class="arrow" style="--rot:225deg"></span>SO</span>
+            <span class="temp">22°</span>
+          </span>
+          → heure · <b>vent/rafales en nœuds</b> · direction (flèche = d'où vient le vent) · température
+        </div>
+        <div class="legend-row">
+          <b>Critères</b> : vent 12–30 kn (idéal 15–25), rafales ≤ 35, T ≥ 18 °C, pluie ≤ 2 mm/h, 9h–19h, direction on/side-shore.
+          <br><small>Pointe une cellule pour voir la raison rouge/jaune. Bordure épaisse = heure idéale.</small>
+        </div>
+      </div>
+    </section>
+    <section id="spots"></section>
+  </main>
+
   <footer>
-    <p>Vert 🟢 = bonnes conditions · Jaune 🟡 = marginal · Rouge 🔴 = non · Blanc ⚪ = inconnu</p>
+    <p>Sources : Open-Meteo · GEM (Environnement Canada) · MET Norway · Consensus ≥ 2/3 sources.</p>
   </footer>
+
   <script src="app.js"></script>
 </body>
 </html>

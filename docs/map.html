@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Kite Québec — Carte</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0077cc">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Kite QC">
+  <link rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin="">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🪁 Kite Québec</h1>
+    <nav>
+      <a href="index.html">Tableau</a>
+      <a href="map.html" class="active">Carte</a>
+    </nav>
+    <p id="generated">Chargement...</p>
+  </header>
+
+  <main>
+    <div id="map"></div>
+    <section class="legend-panel">
+      <h2>Légende de la carte</h2>
+      <div class="legend-grid">
+        <div class="legend-row">
+          <span class="swatch green"></span> Excellent (aujourd'hui ou demain)
+          <span class="swatch yellow"></span> Marginal
+          <span class="swatch red"></span> Non kiteable
+          <span class="swatch unknown"></span> Inconnu
+        </div>
+        <div class="legend-row">
+          <span class="swatch" style="background:#ffeb3b; border: 2px solid #2ecc40;"></span>
+          Liseré jaune = <b>excellent prévu demain</b> (critère strict pour notification à un ami)
+        </div>
+        <div class="legend-row">
+          Chaque épingle reflète <b>le meilleur entre aujourd'hui et demain</b>. Clique dessus pour voir le détail et ouvrir la vue tableau.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Tuiles : © OpenStreetMap contributors · Sources météo : Open-Meteo · GEM · MET Norway</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+          crossorigin=""></script>
+  <script src="map.js"></script>
+</body>
+</html>

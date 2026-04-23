@@ -52,6 +52,24 @@ New repository secret, ajoute :
 - `TELEGRAM_CHAT_ID` : ton chat_id
 - `DASHBOARD_URL` : `https://julien-lavergne-roberge.github.io/kite-quebec-alerts/`
 
+**Pour l'alerte email à un ami** (seulement quand demain est excellent) :
+
+- `GMAIL_USER` : ton gmail (ex. `joulavergneroberge@gmail.com`)
+- `GMAIL_APP_PASSWORD` : un « App Password » de 16 caractères (voir ci-bas)
+- `FRIEND_EMAIL` : courriel de l'ami
+- `CC_EMAIL` : ton propre email pour garder une copie (optionnel)
+
+### Générer un Gmail App Password
+
+1. Active la 2-step verification sur ton compte Google si pas déjà fait :
+   https://myaccount.google.com/security
+2. Va sur https://myaccount.google.com/apppasswords
+3. Crée un mot de passe d'application (nom: `KiteQuebecAlerts`). Google génère
+   un code 16 caractères style `abcd efgh ijkl mnop`. Tu peux le coller avec
+   ou sans espaces dans `GMAIL_APP_PASSWORD`.
+4. Ce mot de passe ne peut être vu qu'une seule fois. Mets-le directement
+   dans le GitHub Secret.
+
 ### 5. Activer GitHub Pages
 
 Settings → Pages → Source : `Deploy from a branch` → Branch : `main`,
