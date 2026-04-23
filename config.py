@@ -39,7 +39,7 @@ SPOTS = [
     },
     {
         "name": "Anse-à-l'Orme",
-        "lat": 45.4900, "lon": -73.9600,
+        "lat": 45.451772, "lon": -73.938647,
         "allowed_dirs": ["O", "SO", "S", "NO"],
     },
 ]
