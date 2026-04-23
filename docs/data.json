@@ -1,10 +1,12 @@
 {
-  "generated_at": "2026-04-22T21:39:50.508636-04:00",
+  "generated_at": "2026-04-22T22:02:19.172042-04:00",
   "today": "2026-04-22",
   "tomorrow": "2026-04-23",
   "spots": [
     {
       "name": "Oka",
+      "lat": 45.4667,
+      "lon": -74.0833,
       "allowed_dirs": [
         "O",
         "SO",
@@ -13,6 +15,7 @@
       ],
       "today": "red",
       "tomorrow": "red",
+      "excellent_tomorrow": null,
       "hourly": [
         {
           "time": "2026-04-22T09:00",
@@ -221,11 +224,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.2,
-          "gust": 15.5,
+          "wind": 10.3,
+          "gust": 15.7,
           "temp": 11.0,
           "precip": 0,
-          "dir": 310,
+          "dir": 311,
           "reason": "11°C"
         },
         {
@@ -236,12 +239,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.5,
-          "gust": 17.0,
-          "temp": 11.5,
+          "wind": 11.4,
+          "gust": 14.8,
+          "temp": 11.4,
           "precip": 0,
-          "dir": 314,
-          "reason": "12°C"
+          "dir": 317,
+          "reason": "11°C"
         },
         {
           "time": "2026-04-23T14:00",
@@ -251,9 +254,9 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.1,
-          "gust": 19.1,
-          "temp": 11.8,
+          "wind": 10.9,
+          "gust": 18.3,
+          "temp": 11.9,
           "precip": 0,
           "dir": 319,
           "reason": "12°C"
@@ -266,11 +269,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.2,
-          "gust": 17.9,
-          "temp": 12.0,
+          "wind": 11.3,
+          "gust": 17.3,
+          "temp": 12.1,
           "precip": 0,
-          "dir": 319,
+          "dir": 315,
           "reason": "12°C"
         },
         {
@@ -281,11 +284,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.4,
-          "gust": 15.9,
+          "wind": 11.3,
+          "gust": 15.7,
           "temp": 12.1,
           "precip": 0,
-          "dir": 318,
+          "dir": 315,
           "reason": "12°C"
         },
         {
@@ -296,9 +299,9 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.0,
-          "gust": 14.8,
-          "temp": 12.0,
+          "wind": 10.7,
+          "gust": 15.0,
+          "temp": 11.9,
           "precip": 0,
           "dir": 323,
           "reason": "12°C"
@@ -312,10 +315,10 @@
             "met_norway": "red"
           },
           "wind": 10.9,
-          "gust": 14.8,
-          "temp": 11.3,
+          "gust": 14.6,
+          "temp": 11.2,
           "precip": 0,
-          "dir": 336,
+          "dir": 333,
           "reason": "11°C"
         },
         {
@@ -326,17 +329,19 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.1,
-          "gust": 14.0,
-          "temp": 10.3,
+          "wind": 9.9,
+          "gust": 14.8,
+          "temp": 10.0,
           "precip": 0,
-          "dir": 336,
-          "reason": "10°C"
+          "dir": 338,
+          "reason": "vent off-shore"
         }
       ]
     },
     {
       "name": "Saint-Placide",
+      "lat": 45.5333,
+      "lon": -74.1833,
       "allowed_dirs": [
         "SO",
         "S",
@@ -345,6 +350,7 @@
       ],
       "today": "red",
       "tomorrow": "red",
+      "excellent_tomorrow": null,
       "hourly": [
         {
           "time": "2026-04-22T09:00",
@@ -553,11 +559,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.0,
-          "gust": 16.7,
-          "temp": 11.1,
+          "wind": 12.1,
+          "gust": 16.9,
+          "temp": 11.2,
           "precip": 0,
-          "dir": 310,
+          "dir": 311,
           "reason": "vent off-shore"
         },
         {
@@ -569,10 +575,10 @@
             "met_norway": "red"
           },
           "wind": 12.6,
-          "gust": 17.9,
+          "gust": 15.9,
           "temp": 11.7,
           "precip": 0,
-          "dir": 320,
+          "dir": 322,
           "reason": "vent off-shore"
         },
         {
@@ -583,11 +589,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.9,
-          "gust": 19.5,
-          "temp": 12.0,
+          "wind": 12.1,
+          "gust": 19.2,
+          "temp": 12.1,
           "precip": 0,
-          "dir": 320,
+          "dir": 319,
           "reason": "vent off-shore"
         },
         {
@@ -598,11 +604,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.1,
-          "gust": 18.5,
+          "wind": 12.0,
+          "gust": 17.7,
           "temp": 12.3,
           "precip": 0,
-          "dir": 320,
+          "dir": 317,
           "reason": "vent off-shore"
         },
         {
@@ -613,11 +619,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.0,
-          "gust": 16.3,
+          "wind": 12.1,
+          "gust": 16.1,
           "temp": 12.5,
           "precip": 0,
-          "dir": 321,
+          "dir": 319,
           "reason": "vent off-shore"
         },
         {
@@ -629,8 +635,8 @@
             "met_norway": "red"
           },
           "wind": 12.0,
-          "gust": 20.4,
-          "temp": 12.4,
+          "gust": 15.6,
+          "temp": 12.3,
           "precip": 0,
           "dir": 324,
           "reason": "vent off-shore"
@@ -643,11 +649,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.4,
-          "gust": 14.0,
-          "temp": 11.7,
+          "wind": 11.5,
+          "gust": 14.4,
+          "temp": 11.5,
           "precip": 0,
-          "dir": 335,
+          "dir": 334,
           "reason": "vent off-shore"
         },
         {
@@ -658,17 +664,19 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.7,
-          "gust": 14.4,
-          "temp": 10.6,
+          "wind": 11.3,
+          "gust": 15.0,
+          "temp": 10.2,
           "precip": 0,
-          "dir": 341,
+          "dir": 349,
           "reason": "vent off-shore"
         }
       ]
     },
     {
       "name": "Pointe-du-Moulin",
+      "lat": 45.3833,
+      "lon": -73.9333,
       "allowed_dirs": [
         "SO",
         "O",
@@ -677,6 +685,7 @@
       ],
       "today": "red",
       "tomorrow": "red",
+      "excellent_tomorrow": null,
       "hourly": [
         {
           "time": "2026-04-22T09:00",
@@ -886,10 +895,10 @@
             "met_norway": "red"
           },
           "wind": 9.6,
-          "gust": 14.9,
+          "gust": 15.0,
           "temp": 11.1,
           "precip": 0,
-          "dir": 315,
+          "dir": 317,
           "reason": "11°C"
         },
         {
@@ -900,11 +909,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.4,
-          "gust": 15.5,
-          "temp": 11.9,
+          "wind": 10.6,
+          "gust": 13.4,
+          "temp": 12.0,
           "precip": 0,
-          "dir": 316,
+          "dir": 320,
           "reason": "12°C"
         },
         {
@@ -915,11 +924,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.7,
-          "gust": 15.4,
-          "temp": 12.2,
+          "wind": 11.3,
+          "gust": 17.1,
+          "temp": 12.3,
           "precip": 0,
-          "dir": 317,
+          "dir": 319,
           "reason": "12°C"
         },
         {
@@ -930,8 +939,8 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.7,
-          "gust": 17.1,
+          "wind": 12.0,
+          "gust": 16.9,
           "temp": 12.4,
           "precip": 0,
           "dir": 318,
@@ -945,11 +954,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.0,
-          "gust": 15.9,
+          "wind": 11.8,
+          "gust": 15.4,
           "temp": 12.4,
           "precip": 0,
-          "dir": 318,
+          "dir": 315,
           "reason": "12°C"
         },
         {
@@ -960,8 +969,8 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.6,
-          "gust": 15.2,
+          "wind": 11.4,
+          "gust": 14.6,
           "temp": 12.2,
           "precip": 0,
           "dir": 322,
@@ -975,11 +984,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.7,
-          "gust": 15.2,
-          "temp": 11.6,
+          "wind": 11.5,
+          "gust": 15.0,
+          "temp": 11.5,
           "precip": 0,
-          "dir": 330,
+          "dir": 327,
           "reason": "12°C"
         },
         {
@@ -991,16 +1000,18 @@
             "met_norway": "red"
           },
           "wind": 10.1,
-          "gust": 14.2,
-          "temp": 10.7,
+          "gust": 14.6,
+          "temp": 10.5,
           "precip": 0,
-          "dir": 337,
-          "reason": "11°C"
+          "dir": 335,
+          "reason": "10°C"
         }
       ]
     },
     {
       "name": "Saint-Zotique",
+      "lat": 45.25,
+      "lon": -74.25,
       "allowed_dirs": [
         "SO",
         "S",
@@ -1009,6 +1020,7 @@
       ],
       "today": "red",
       "tomorrow": "red",
+      "excellent_tomorrow": null,
       "hourly": [
         {
           "time": "2026-04-22T09:00",
@@ -1221,7 +1233,7 @@
           "gust": 16.5,
           "temp": 10.6,
           "precip": 0,
-          "dir": 310,
+          "dir": 311,
           "reason": "vent off-shore"
         },
         {
@@ -1232,11 +1244,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.6,
-          "gust": 14.9,
+          "wind": 11.8,
+          "gust": 15.2,
           "temp": 11.9,
           "precip": 0,
-          "dir": 319,
+          "dir": 322,
           "reason": "vent off-shore"
         },
         {
@@ -1247,11 +1259,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.7,
-          "gust": 15.9,
-          "temp": 12.8,
+          "wind": 12.9,
+          "gust": 17.5,
+          "temp": 12.5,
           "precip": 0,
-          "dir": 318,
+          "dir": 316,
           "reason": "vent off-shore"
         },
         {
@@ -1262,11 +1274,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 13.0,
-          "gust": 15.7,
-          "temp": 12.9,
+          "wind": 13.1,
+          "gust": 16.1,
+          "temp": 12.7,
           "precip": 0,
-          "dir": 322,
+          "dir": 317,
           "reason": "vent off-shore"
         },
         {
@@ -1277,11 +1289,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.6,
-          "gust": 15.6,
-          "temp": 13.0,
+          "wind": 12.4,
+          "gust": 15.2,
+          "temp": 12.9,
           "precip": 0,
-          "dir": 322,
+          "dir": 325,
           "reason": "vent off-shore"
         },
         {
@@ -1292,11 +1304,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.5,
-          "gust": 15.6,
+          "wind": 12.3,
+          "gust": 15.2,
           "temp": 12.8,
           "precip": 0,
-          "dir": 327,
+          "dir": 331,
           "reason": "vent off-shore"
         },
         {
@@ -1307,11 +1319,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.0,
-          "gust": 15.6,
-          "temp": 12.4,
+          "wind": 12.4,
+          "gust": 16.1,
+          "temp": 12.2,
           "precip": 0,
-          "dir": 326,
+          "dir": 323,
           "reason": "vent off-shore"
         },
         {
@@ -1322,17 +1334,19 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.3,
-          "gust": 15.0,
-          "temp": 11.2,
+          "wind": 9.7,
+          "gust": 14.4,
+          "temp": 10.9,
           "precip": 0,
-          "dir": 345,
+          "dir": 338,
           "reason": "vent off-shore"
         }
       ]
     },
     {
       "name": "Salaberry-Valleyfield",
+      "lat": 45.25,
+      "lon": -74.13,
       "allowed_dirs": [
         "O",
         "NO",
@@ -1341,6 +1355,7 @@
       ],
       "today": "red",
       "tomorrow": "red",
+      "excellent_tomorrow": null,
       "hourly": [
         {
           "time": "2026-04-22T09:00",
@@ -1549,8 +1564,8 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.8,
-          "gust": 17.2,
+          "wind": 10.7,
+          "gust": 17.1,
           "temp": 10.8,
           "precip": 0,
           "dir": 307,
@@ -1565,10 +1580,10 @@
             "met_norway": "red"
           },
           "wind": 11.2,
-          "gust": 17.6,
-          "temp": 11.9,
+          "gust": 15.4,
+          "temp": 12.0,
           "precip": 0,
-          "dir": 318,
+          "dir": 320,
           "reason": "12°C"
         },
         {
@@ -1579,11 +1594,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.0,
-          "gust": 15.8,
-          "temp": 12.8,
+          "wind": 11.8,
+          "gust": 17.9,
+          "temp": 12.6,
           "precip": 0,
-          "dir": 319,
+          "dir": 318,
           "reason": "13°C"
         },
         {
@@ -1595,10 +1610,10 @@
             "met_norway": "red"
           },
           "wind": 12.1,
-          "gust": 18.9,
-          "temp": 13.0,
+          "gust": 16.3,
+          "temp": 12.8,
           "precip": 0,
-          "dir": 323,
+          "dir": 316,
           "reason": "13°C"
         },
         {
@@ -1609,11 +1624,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.8,
-          "gust": 16.3,
-          "temp": 12.9,
+          "wind": 11.7,
+          "gust": 15.2,
+          "temp": 13.0,
           "precip": 0,
-          "dir": 327,
+          "dir": 312,
           "reason": "13°C"
         },
         {
@@ -1624,11 +1639,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.0,
+          "wind": 10.9,
           "gust": 14.4,
-          "temp": 12.9,
+          "temp": 12.8,
           "precip": 0,
-          "dir": 328,
+          "dir": 319,
           "reason": "13°C"
         },
         {
@@ -1639,11 +1654,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.7,
-          "gust": 14.2,
+          "wind": 10.8,
+          "gust": 14.4,
           "temp": 12.2,
           "precip": 0,
-          "dir": 341,
+          "dir": 334,
           "reason": "12°C"
         },
         {
@@ -1654,17 +1669,19 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.6,
-          "gust": 15.9,
-          "temp": 11.0,
+          "wind": 10.7,
+          "gust": 16.1,
+          "temp": 10.8,
           "precip": 0,
-          "dir": 339,
+          "dir": 341,
           "reason": "11°C"
         }
       ]
     },
     {
       "name": "Cap-Saint-Jacques",
+      "lat": 45.5167,
+      "lon": -73.95,
       "allowed_dirs": [
         "O",
         "NO",
@@ -1673,6 +1690,7 @@
       ],
       "today": "red",
       "tomorrow": "red",
+      "excellent_tomorrow": null,
       "hourly": [
         {
           "time": "2026-04-22T09:00",
@@ -1881,11 +1899,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.5,
-          "gust": 14.9,
+          "wind": 9.7,
+          "gust": 15.2,
           "temp": 10.3,
           "precip": 0,
-          "dir": 320,
+          "dir": 322,
           "reason": "10°C"
         },
         {
@@ -1897,10 +1915,10 @@
             "met_norway": "red"
           },
           "wind": 10.5,
-          "gust": 16.7,
+          "gust": 16.9,
           "temp": 11.3,
           "precip": 0,
-          "dir": 320,
+          "dir": 322,
           "reason": "11°C"
         },
         {
@@ -1911,11 +1929,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.6,
-          "gust": 16.7,
-          "temp": 11.7,
+          "wind": 10.8,
+          "gust": 16.5,
+          "temp": 11.9,
           "precip": 0,
-          "dir": 319,
+          "dir": 324,
           "reason": "12°C"
         },
         {
@@ -1926,11 +1944,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.9,
-          "gust": 15.6,
-          "temp": 12.0,
+          "wind": 11.0,
+          "gust": 15.2,
+          "temp": 12.2,
           "precip": 0,
-          "dir": 319,
+          "dir": 316,
           "reason": "12°C"
         },
         {
@@ -1941,11 +1959,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.3,
-          "gust": 15.0,
+          "wind": 11.0,
+          "gust": 14.4,
           "temp": 12.2,
           "precip": 0,
-          "dir": 319,
+          "dir": 312,
           "reason": "12°C"
         },
         {
@@ -1956,11 +1974,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.0,
-          "gust": 14.8,
+          "wind": 10.8,
+          "gust": 14.0,
           "temp": 12.0,
           "precip": 0,
-          "dir": 324,
+          "dir": 319,
           "reason": "12°C"
         },
         {
@@ -1971,11 +1989,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.2,
+          "wind": 10.1,
           "gust": 13.8,
           "temp": 11.3,
           "precip": 0,
-          "dir": 334,
+          "dir": 332,
           "reason": "11°C"
         },
         {
@@ -1986,11 +2004,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.5,
-          "gust": 13.6,
-          "temp": 10.2,
+          "wind": 9.1,
+          "gust": 14.0,
+          "temp": 10.0,
           "precip": 0,
-          "dir": 348,
+          "dir": 350,
           "reason": "10°C"
         }
       ]
