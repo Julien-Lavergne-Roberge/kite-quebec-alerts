@@ -1,0 +1,23 @@
+name: Send intro email (one-shot)
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Send intro email
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          FRIEND_EMAIL: ${{ secrets.FRIEND_EMAIL }}
+          CC_EMAIL: ${{ secrets.CC_EMAIL }}
+          DASHBOARD_URL: ${{ secrets.DASHBOARD_URL }}
+        run: python send_intro_email.py

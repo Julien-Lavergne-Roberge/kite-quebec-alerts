@@ -37,6 +37,11 @@ SPOTS = [
         "lat": 45.5167, "lon": -73.9500,
         "allowed_dirs": ["O", "NO", "N", "SO"],
     },
+    {
+        "name": "Anse-à-l'Orme",
+        "lat": 45.4900, "lon": -73.9600,
+        "allowed_dirs": ["O", "SO", "S", "NO"],
+    },
 ]
 
 CRITERIA = {
