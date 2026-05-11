@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-10T07:27:17.635043-04:00",
-  "today": "2026-05-10",
-  "tomorrow": "2026-05-11",
+  "generated_at": "2026-05-11T09:23:04.114039-04:00",
+  "today": "2026-05-11",
+  "tomorrow": "2026-05-12",
   "spots": [
     {
       "name": "Oka",
@@ -18,171 +18,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-05-10T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 11.6,
-          "gust": 20.2,
-          "temp": 11.5,
-          "precip": 0,
-          "dir": 235,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 11.7,
-          "gust": 18.5,
-          "temp": 12.0,
-          "precip": 0,
-          "dir": 231,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 12.8,
-          "gust": 22.5,
-          "temp": 12.6,
-          "precip": 0,
-          "dir": 234,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 14.4,
-          "gust": 23.3,
-          "temp": 13.2,
-          "precip": 0,
-          "dir": 241,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.4,
-          "gust": 24.5,
-          "temp": 13.3,
-          "precip": 0,
-          "dir": 247,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 16.0,
-          "gust": 23.5,
-          "temp": 13.5,
-          "precip": 0,
-          "dir": 243,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 16.0,
-          "gust": 23.3,
-          "temp": 13.5,
-          "precip": 0,
-          "dir": 254,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 14.5,
-          "gust": 21.6,
-          "temp": 12.2,
-          "precip": 0,
-          "dir": 262,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 14.0,
-          "gust": 20.8,
-          "temp": 11.7,
-          "precip": 0.4,
-          "dir": 266,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 12.4,
-          "gust": 18.9,
-          "temp": 9.5,
-          "precip": 0,
-          "dir": 287,
-          "reason": "10°C"
-        },
-        {
-          "time": "2026-05-10T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 8.2,
-          "gust": 16.7,
-          "temp": 10.6,
-          "precip": 0,
-          "dir": 266,
-          "reason": "11°C"
-        },
-        {
           "time": "2026-05-11T09:00",
           "status": "red",
           "sources": {
@@ -190,12 +25,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.5,
-          "gust": 15.2,
-          "temp": 7.8,
+          "wind": 6.2,
+          "gust": 10.1,
+          "temp": 8.9,
           "precip": 0,
-          "dir": 258,
-          "reason": "8°C"
+          "dir": 256,
+          "reason": "9°C"
         },
         {
           "time": "2026-05-11T10:00",
@@ -205,12 +40,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.8,
-          "gust": 14.8,
-          "temp": 8.4,
+          "wind": 8.7,
+          "gust": 11.9,
+          "temp": 9.5,
           "precip": 0,
-          "dir": 257,
-          "reason": "8°C"
+          "dir": 258,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T11:00",
@@ -220,11 +55,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.3,
-          "gust": 14.2,
-          "temp": 9.5,
+          "wind": 9.2,
+          "gust": 12.1,
+          "temp": 10.2,
           "precip": 0,
-          "dir": 254,
+          "dir": 257,
           "reason": "10°C"
         },
         {
@@ -235,12 +70,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.5,
-          "gust": 13.4,
-          "temp": 8.8,
+          "wind": 14.2,
+          "gust": 21.4,
+          "temp": 7.4,
           "precip": 0,
-          "dir": 268,
-          "reason": "9°C"
+          "dir": 286,
+          "reason": "7°C"
         },
         {
           "time": "2026-05-11T13:00",
@@ -250,11 +85,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.5,
-          "gust": 13.6,
-          "temp": 9.6,
+          "wind": 8.4,
+          "gust": 16.7,
+          "temp": 10.5,
           "precip": 0,
-          "dir": 273,
+          "dir": 308,
           "reason": "10°C"
         },
         {
@@ -265,12 +100,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 5.7,
-          "gust": 11.7,
-          "temp": 8.2,
+          "wind": 10.5,
+          "gust": 15.7,
+          "temp": 11.4,
           "precip": 0,
-          "dir": 276,
-          "reason": "8°C"
+          "dir": 289,
+          "reason": "11°C"
         },
         {
           "time": "2026-05-11T15:00",
@@ -280,11 +115,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.2,
-          "gust": 14.0,
-          "temp": 10.6,
+          "wind": 10.8,
+          "gust": 14.4,
+          "temp": 10.9,
           "precip": 0,
-          "dir": 279,
+          "dir": 283,
           "reason": "11°C"
         },
         {
@@ -295,11 +130,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.6,
-          "gust": 15.4,
-          "temp": 11.0,
+          "wind": 7.9,
+          "gust": 12.4,
+          "temp": 10.9,
           "precip": 0,
-          "dir": 279,
+          "dir": 281,
           "reason": "11°C"
         },
         {
@@ -310,11 +145,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.5,
-          "gust": 17.7,
-          "temp": 10.9,
+          "wind": 8.8,
+          "gust": 12.8,
+          "temp": 11.4,
           "precip": 0,
-          "dir": 283,
+          "dir": 273,
           "reason": "11°C"
         },
         {
@@ -325,12 +160,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.4,
-          "gust": 17.7,
-          "temp": 10.0,
+          "wind": 8.6,
+          "gust": 12.1,
+          "temp": 11.3,
           "precip": 0,
-          "dir": 299,
-          "reason": "10°C"
+          "dir": 278,
+          "reason": "11°C"
         },
         {
           "time": "2026-05-11T19:00",
@@ -340,12 +175,177 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.0,
-          "gust": 14.4,
-          "temp": 9.6,
+          "wind": 9.7,
+          "gust": 12.8,
+          "temp": 10.5,
           "precip": 0,
-          "dir": 289,
+          "dir": 258,
           "reason": "10°C"
+        },
+        {
+          "time": "2026-05-12T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.2,
+          "gust": 7.0,
+          "temp": 7.1,
+          "precip": 0,
+          "dir": 308,
+          "reason": "7°C"
+        },
+        {
+          "time": "2026-05-12T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.1,
+          "gust": 7.2,
+          "temp": 8.3,
+          "precip": 0,
+          "dir": 273,
+          "reason": "8°C"
+        },
+        {
+          "time": "2026-05-12T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.7,
+          "gust": 7.6,
+          "temp": 9.4,
+          "precip": 0,
+          "dir": 305,
+          "reason": "9°C"
+        },
+        {
+          "time": "2026-05-12T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.3,
+          "gust": 6.4,
+          "temp": 9.8,
+          "precip": 0,
+          "dir": 321,
+          "reason": "10°C"
+        },
+        {
+          "time": "2026-05-12T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.4,
+          "gust": 8.9,
+          "temp": 10.2,
+          "precip": 0,
+          "dir": 293,
+          "reason": "10°C"
+        },
+        {
+          "time": "2026-05-12T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.9,
+          "gust": 8.4,
+          "temp": 11.5,
+          "precip": 0,
+          "dir": 303,
+          "reason": "12°C"
+        },
+        {
+          "time": "2026-05-12T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.6,
+          "gust": 8.6,
+          "temp": 11.2,
+          "precip": 0,
+          "dir": 285,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.7,
+          "gust": 8.9,
+          "temp": 12.1,
+          "precip": 0,
+          "dir": 286,
+          "reason": "12°C"
+        },
+        {
+          "time": "2026-05-12T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.7,
+          "gust": 6.6,
+          "temp": 12.2,
+          "precip": 0,
+          "dir": 332,
+          "reason": "12°C"
+        },
+        {
+          "time": "2026-05-12T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 2.9,
+          "gust": 5.2,
+          "temp": 11.9,
+          "precip": 0,
+          "dir": 4,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 2.8,
+          "gust": 6.6,
+          "temp": 11.3,
+          "precip": 0,
+          "dir": 51,
+          "reason": "vent off-shore"
         }
       ]
     },
@@ -364,171 +364,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-05-10T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 11.5,
-          "gust": 20.2,
-          "temp": 11.5,
-          "precip": 0,
-          "dir": 233,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 12.2,
-          "gust": 21.4,
-          "temp": 12.0,
-          "precip": 0,
-          "dir": 231,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 13.8,
-          "gust": 22.0,
-          "temp": 12.9,
-          "precip": 0,
-          "dir": 235,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.9,
-          "gust": 24.3,
-          "temp": 13.8,
-          "precip": 0,
-          "dir": 240,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 17.0,
-          "gust": 26.4,
-          "temp": 13.7,
-          "precip": 0,
-          "dir": 243,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 17.3,
-          "gust": 24.5,
-          "temp": 14.3,
-          "precip": 0,
-          "dir": 243,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.6,
-          "gust": 22.0,
-          "temp": 12.9,
-          "precip": 0,
-          "dir": 254,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 14.4,
-          "gust": 20.6,
-          "temp": 12.6,
-          "precip": 0,
-          "dir": 260,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 12.5,
-          "gust": 18.1,
-          "temp": 11.5,
-          "precip": 0,
-          "dir": 249,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 6.8,
-          "gust": 16.9,
-          "temp": 9.4,
-          "precip": 0,
-          "dir": 252,
-          "reason": "9°C"
-        },
-        {
-          "time": "2026-05-10T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 8.3,
-          "gust": 16.1,
-          "temp": 11.1,
-          "precip": 0,
-          "dir": 258,
-          "reason": "11°C"
-        },
-        {
           "time": "2026-05-11T09:00",
           "status": "red",
           "sources": {
@@ -536,12 +371,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.0,
-          "gust": 14.6,
-          "temp": 8.2,
+          "wind": 6.9,
+          "gust": 10.1,
+          "temp": 9.1,
           "precip": 0,
-          "dir": 256,
-          "reason": "8°C"
+          "dir": 248,
+          "reason": "9°C"
         },
         {
           "time": "2026-05-11T10:00",
@@ -551,12 +386,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.8,
-          "gust": 14.6,
-          "temp": 9.0,
+          "wind": 9.0,
+          "gust": 11.9,
+          "temp": 9.7,
           "precip": 0,
-          "dir": 253,
-          "reason": "9°C"
+          "dir": 252,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T11:00",
@@ -566,12 +401,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.4,
-          "gust": 13.6,
-          "temp": 9.3,
+          "wind": 9.8,
+          "gust": 12.1,
+          "temp": 9.7,
           "precip": 0,
           "dir": 257,
-          "reason": "9°C"
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T12:00",
@@ -581,12 +416,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.8,
-          "gust": 11.9,
-          "temp": 8.9,
-          "precip": 0,
-          "dir": 264,
-          "reason": "9°C"
+          "wind": 17.2,
+          "gust": 22.9,
+          "temp": 8.3,
+          "precip": 0.4,
+          "dir": 301,
+          "reason": "vent off-shore"
         },
         {
           "time": "2026-05-11T13:00",
@@ -596,12 +431,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 7.9,
-          "gust": 10.9,
-          "temp": 10.0,
+          "wind": 10.5,
+          "gust": 16.9,
+          "temp": 11.1,
           "precip": 0,
-          "dir": 259,
-          "reason": "10°C"
+          "dir": 309,
+          "reason": "vent off-shore"
         },
         {
           "time": "2026-05-11T14:00",
@@ -611,12 +446,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 7.5,
-          "gust": 12.6,
-          "temp": 9.4,
+          "wind": 10.3,
+          "gust": 15.0,
+          "temp": 11.2,
           "precip": 0,
-          "dir": 245,
-          "reason": "9°C"
+          "dir": 292,
+          "reason": "11°C"
         },
         {
           "time": "2026-05-11T15:00",
@@ -626,12 +461,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.7,
+          "wind": 10.6,
           "gust": 13.2,
-          "temp": 10.5,
+          "temp": 10.6,
           "precip": 0,
-          "dir": 282,
-          "reason": "10°C"
+          "dir": 287,
+          "reason": "11°C"
         },
         {
           "time": "2026-05-11T16:00",
@@ -641,12 +476,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.3,
-          "gust": 15.7,
-          "temp": 11.2,
+          "wind": 8.6,
+          "gust": 12.8,
+          "temp": 11.5,
           "precip": 0,
-          "dir": 274,
-          "reason": "11°C"
+          "dir": 276,
+          "reason": "12°C"
         },
         {
           "time": "2026-05-11T17:00",
@@ -656,12 +491,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 14.0,
-          "gust": 18.1,
-          "temp": 10.6,
+          "wind": 9.4,
+          "gust": 12.8,
+          "temp": 11.8,
           "precip": 0,
-          "dir": 289,
-          "reason": "11°C"
+          "dir": 278,
+          "reason": "12°C"
         },
         {
           "time": "2026-05-11T18:00",
@@ -671,12 +506,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.0,
-          "gust": 15.7,
-          "temp": 10.2,
+          "wind": 8.6,
+          "gust": 11.5,
+          "temp": 11.7,
           "precip": 0,
-          "dir": 290,
-          "reason": "10°C"
+          "dir": 271,
+          "reason": "12°C"
         },
         {
           "time": "2026-05-11T19:00",
@@ -686,11 +521,176 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.1,
-          "gust": 15.6,
-          "temp": 9.8,
+          "wind": 7.2,
+          "gust": 11.1,
+          "temp": 10.9,
           "precip": 0,
-          "dir": 301,
+          "dir": 257,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.2,
+          "gust": 6.0,
+          "temp": 7.5,
+          "precip": 0,
+          "dir": 281,
+          "reason": "8°C"
+        },
+        {
+          "time": "2026-05-12T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.1,
+          "gust": 8.0,
+          "temp": 8.7,
+          "precip": 0,
+          "dir": 288,
+          "reason": "9°C"
+        },
+        {
+          "time": "2026-05-12T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.1,
+          "gust": 7.8,
+          "temp": 9.7,
+          "precip": 0,
+          "dir": 299,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.1,
+          "gust": 6.6,
+          "temp": 10.1,
+          "precip": 0,
+          "dir": 295,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.3,
+          "gust": 8.9,
+          "temp": 10.7,
+          "precip": 0,
+          "dir": 289,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.9,
+          "gust": 8.4,
+          "temp": 11.3,
+          "precip": 0,
+          "dir": 288,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.1,
+          "gust": 8.4,
+          "temp": 11.8,
+          "precip": 0,
+          "dir": 288,
+          "reason": "12°C"
+        },
+        {
+          "time": "2026-05-12T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.3,
+          "gust": 8.9,
+          "temp": 12.5,
+          "precip": 0,
+          "dir": 306,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.7,
+          "gust": 5.8,
+          "temp": 12.4,
+          "precip": 0,
+          "dir": 298,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 2.8,
+          "gust": 4.3,
+          "temp": 12.2,
+          "precip": 0,
+          "dir": 25,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 2.3,
+          "gust": 6.2,
+          "temp": 11.7,
+          "precip": 0,
+          "dir": 42,
           "reason": "vent off-shore"
         }
       ]
@@ -710,171 +710,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-05-10T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 12.8,
-          "gust": 20.8,
-          "temp": 12.2,
-          "precip": 0,
-          "dir": 223,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 13.1,
-          "gust": 19.0,
-          "temp": 12.9,
-          "precip": 0,
-          "dir": 228,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 13.9,
-          "gust": 21.0,
-          "temp": 13.4,
-          "precip": 0,
-          "dir": 230,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.0,
-          "gust": 24.5,
-          "temp": 14.5,
-          "precip": 0,
-          "dir": 237,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.9,
-          "gust": 24.5,
-          "temp": 14.9,
-          "precip": 0,
-          "dir": 237,
-          "reason": "15°C"
-        },
-        {
-          "time": "2026-05-10T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 16.7,
-          "gust": 23.9,
-          "temp": 14.0,
-          "precip": 0,
-          "dir": 251,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 16.8,
-          "gust": 24.3,
-          "temp": 14.9,
-          "precip": 0,
-          "dir": 245,
-          "reason": "15°C"
-        },
-        {
-          "time": "2026-05-10T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 17.0,
-          "gust": 23.3,
-          "temp": 13.9,
-          "precip": 0,
-          "dir": 264,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 14.0,
-          "gust": 21.4,
-          "temp": 12.1,
-          "precip": 0,
-          "dir": 267,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 10.9,
-          "gust": 20.6,
-          "temp": 11.3,
-          "precip": 0,
-          "dir": 267,
-          "reason": "11°C"
-        },
-        {
-          "time": "2026-05-10T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 8.0,
-          "gust": 16.1,
-          "temp": 11.1,
-          "precip": 0,
-          "dir": 276,
-          "reason": "11°C"
-        },
-        {
           "time": "2026-05-11T09:00",
           "status": "red",
           "sources": {
@@ -882,12 +717,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.4,
-          "gust": 14.8,
-          "temp": 8.4,
+          "wind": 6.0,
+          "gust": 10.5,
+          "temp": 9.7,
           "precip": 0,
-          "dir": 252,
-          "reason": "8°C"
+          "dir": 255,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T10:00",
@@ -897,12 +732,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.3,
-          "gust": 14.6,
-          "temp": 9.1,
+          "wind": 9.5,
+          "gust": 12.8,
+          "temp": 10.6,
           "precip": 0,
-          "dir": 255,
-          "reason": "9°C"
+          "dir": 251,
+          "reason": "11°C"
         },
         {
           "time": "2026-05-11T11:00",
@@ -912,12 +747,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.0,
-          "gust": 14.6,
-          "temp": 9.7,
+          "wind": 9.8,
+          "gust": 12.2,
+          "temp": 11.1,
           "precip": 0,
-          "dir": 249,
-          "reason": "10°C"
+          "dir": 252,
+          "reason": "11°C"
         },
         {
           "time": "2026-05-11T12:00",
@@ -927,12 +762,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.3,
-          "gust": 15.4,
-          "temp": 9.3,
+          "wind": 12.8,
+          "gust": 16.5,
+          "temp": 10.3,
           "precip": 0,
-          "dir": 255,
-          "reason": "9°C"
+          "dir": 284,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T13:00",
@@ -942,12 +777,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.3,
-          "gust": 14.2,
-          "temp": 10.2,
+          "wind": 8.0,
+          "gust": 14.4,
+          "temp": 9.2,
           "precip": 0,
-          "dir": 267,
-          "reason": "10°C"
+          "dir": 274,
+          "reason": "9°C"
         },
         {
           "time": "2026-05-11T14:00",
@@ -957,12 +792,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.6,
-          "gust": 13.0,
-          "temp": 10.3,
+          "wind": 6.6,
+          "gust": 14.0,
+          "temp": 11.7,
           "precip": 0,
-          "dir": 301,
-          "reason": "10°C"
+          "dir": 285,
+          "reason": "12°C"
         },
         {
           "time": "2026-05-11T15:00",
@@ -972,11 +807,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 6.2,
-          "gust": 12.4,
-          "temp": 10.8,
+          "wind": 10.7,
+          "gust": 13.8,
+          "temp": 11.2,
           "precip": 0,
-          "dir": 265,
+          "dir": 289,
           "reason": "11°C"
         },
         {
@@ -987,11 +822,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.6,
-          "gust": 14.2,
+          "wind": 9.8,
+          "gust": 12.6,
           "temp": 11.1,
           "precip": 0,
-          "dir": 290,
+          "dir": 295,
           "reason": "11°C"
         },
         {
@@ -1002,11 +837,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.8,
-          "gust": 14.8,
-          "temp": 11.3,
+          "wind": 7.6,
+          "gust": 12.2,
+          "temp": 11.2,
           "precip": 0,
-          "dir": 279,
+          "dir": 276,
           "reason": "11°C"
         },
         {
@@ -1017,12 +852,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 13.2,
-          "gust": 18.1,
-          "temp": 10.5,
+          "wind": 7.6,
+          "gust": 12.1,
+          "temp": 11.4,
           "precip": 0,
-          "dir": 301,
-          "reason": "10°C"
+          "dir": 273,
+          "reason": "11°C"
         },
         {
           "time": "2026-05-11T19:00",
@@ -1032,12 +867,177 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.2,
-          "gust": 14.8,
-          "temp": 9.9,
+          "wind": 8.5,
+          "gust": 12.2,
+          "temp": 11.2,
           "precip": 0,
-          "dir": 294,
+          "dir": 281,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.1,
+          "gust": 8.0,
+          "temp": 7.4,
+          "precip": 0,
+          "dir": 300,
+          "reason": "7°C"
+        },
+        {
+          "time": "2026-05-12T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.4,
+          "gust": 8.6,
+          "temp": 8.5,
+          "precip": 0,
+          "dir": 300,
+          "reason": "8°C"
+        },
+        {
+          "time": "2026-05-12T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.4,
+          "gust": 8.7,
+          "temp": 9.4,
+          "precip": 0,
+          "dir": 308,
+          "reason": "9°C"
+        },
+        {
+          "time": "2026-05-12T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.3,
+          "gust": 7.4,
+          "temp": 10.4,
+          "precip": 0,
+          "dir": 306,
           "reason": "10°C"
+        },
+        {
+          "time": "2026-05-12T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.8,
+          "gust": 10.3,
+          "temp": 10.9,
+          "precip": 0,
+          "dir": 327,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.9,
+          "gust": 8.6,
+          "temp": 11.0,
+          "precip": 0,
+          "dir": 333,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.1,
+          "gust": 10.1,
+          "temp": 11.5,
+          "precip": 0,
+          "dir": 342,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.7,
+          "gust": 10.5,
+          "temp": 12.1,
+          "precip": 0,
+          "dir": 338,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.6,
+          "gust": 9.3,
+          "temp": 12.2,
+          "precip": 0,
+          "dir": 357,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.7,
+          "gust": 9.3,
+          "temp": 11.7,
+          "precip": 0,
+          "dir": 47,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.2,
+          "gust": 8.7,
+          "temp": 11.1,
+          "precip": 0,
+          "dir": 58,
+          "reason": "vent off-shore"
         }
       ]
     },
@@ -1056,171 +1056,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-05-10T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 12.0,
-          "gust": 19.8,
-          "temp": 12.0,
-          "precip": 0,
-          "dir": 226,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 13.3,
-          "gust": 19.6,
-          "temp": 12.4,
-          "precip": 0,
-          "dir": 233,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 13.3,
-          "gust": 20.0,
-          "temp": 13.0,
-          "precip": 0,
-          "dir": 232,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 14.7,
-          "gust": 23.7,
-          "temp": 13.7,
-          "precip": 0,
-          "dir": 241,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.4,
-          "gust": 23.9,
-          "temp": 14.1,
-          "precip": 0,
-          "dir": 236,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.6,
-          "gust": 24.5,
-          "temp": 13.2,
-          "precip": 0,
-          "dir": 247,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.6,
-          "gust": 22.9,
-          "temp": 14.2,
-          "precip": 0,
-          "dir": 251,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 16.1,
-          "gust": 21.6,
-          "temp": 13.2,
-          "precip": 0,
-          "dir": 268,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 17.9,
-          "gust": 25.3,
-          "temp": 11.3,
-          "precip": 0,
-          "dir": 267,
-          "reason": "11°C"
-        },
-        {
-          "time": "2026-05-10T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 13.6,
-          "gust": 19.0,
-          "temp": 11.6,
-          "precip": 0,
-          "dir": 268,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 10.6,
-          "gust": 16.3,
-          "temp": 11.4,
-          "precip": 0,
-          "dir": 263,
-          "reason": "11°C"
-        },
-        {
           "time": "2026-05-11T09:00",
           "status": "red",
           "sources": {
@@ -1228,12 +1063,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.1,
-          "gust": 14.4,
-          "temp": 7.4,
+          "wind": 7.6,
+          "gust": 11.9,
+          "temp": 7.9,
           "precip": 0,
-          "dir": 260,
-          "reason": "7°C"
+          "dir": 238,
+          "reason": "8°C"
         },
         {
           "time": "2026-05-11T10:00",
@@ -1243,12 +1078,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.8,
-          "gust": 14.0,
-          "temp": 7.9,
+          "wind": 9.1,
+          "gust": 12.8,
+          "temp": 8.9,
           "precip": 0,
-          "dir": 253,
-          "reason": "8°C"
+          "dir": 255,
+          "reason": "9°C"
         },
         {
           "time": "2026-05-11T11:00",
@@ -1258,12 +1093,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.3,
-          "gust": 14.6,
-          "temp": 8.6,
+          "wind": 9.5,
+          "gust": 12.4,
+          "temp": 9.8,
           "precip": 0,
-          "dir": 250,
-          "reason": "9°C"
+          "dir": 244,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T12:00",
@@ -1273,12 +1108,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.2,
-          "gust": 14.2,
-          "temp": 8.4,
+          "wind": 15.5,
+          "gust": 20.6,
+          "temp": 7.4,
           "precip": 0,
-          "dir": 261,
-          "reason": "8°C"
+          "dir": 305,
+          "reason": "vent off-shore"
         },
         {
           "time": "2026-05-11T13:00",
@@ -1288,11 +1123,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.3,
-          "gust": 13.4,
-          "temp": 9.1,
+          "wind": 3.1,
+          "gust": 10.9,
+          "temp": 9.4,
           "precip": 0,
-          "dir": 267,
+          "dir": 235,
           "reason": "9°C"
         },
         {
@@ -1303,11 +1138,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.6,
-          "gust": 12.2,
-          "temp": 9.7,
+          "wind": 6.4,
+          "gust": 12.1,
+          "temp": 10.5,
           "precip": 0,
-          "dir": 265,
+          "dir": 258,
           "reason": "10°C"
         },
         {
@@ -1318,12 +1153,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.5,
-          "gust": 14.0,
-          "temp": 8.4,
+          "wind": 8.6,
+          "gust": 11.3,
+          "temp": 10.5,
           "precip": 0,
-          "dir": 214,
-          "reason": "8°C"
+          "dir": 283,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T16:00",
@@ -1333,12 +1168,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 7.9,
-          "gust": 12.4,
-          "temp": 9.3,
-          "precip": 0,
-          "dir": 230,
-          "reason": "9°C"
+          "wind": 10.3,
+          "gust": 13.2,
+          "temp": 9.8,
+          "precip": 0.4,
+          "dir": 273,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T17:00",
@@ -1348,11 +1183,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.2,
-          "gust": 14.6,
-          "temp": 10.2,
+          "wind": 9.1,
+          "gust": 12.1,
+          "temp": 10.0,
           "precip": 0,
-          "dir": 240,
+          "dir": 272,
           "reason": "10°C"
         },
         {
@@ -1363,11 +1198,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 13.0,
-          "gust": 17.7,
-          "temp": 10.5,
+          "wind": 6.7,
+          "gust": 12.2,
+          "temp": 9.8,
           "precip": 0,
-          "dir": 287,
+          "dir": 216,
           "reason": "10°C"
         },
         {
@@ -1378,11 +1213,176 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.2,
-          "gust": 16.3,
-          "temp": 9.7,
+          "wind": 4.8,
+          "gust": 9.7,
+          "temp": 9.3,
           "precip": 0,
-          "dir": 301,
+          "dir": 230,
+          "reason": "9°C"
+        },
+        {
+          "time": "2026-05-12T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.5,
+          "gust": 11.7,
+          "temp": 7.0,
+          "precip": 0,
+          "dir": 280,
+          "reason": "7°C"
+        },
+        {
+          "time": "2026-05-12T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.1,
+          "gust": 11.1,
+          "temp": 8.0,
+          "precip": 0,
+          "dir": 279,
+          "reason": "8°C"
+        },
+        {
+          "time": "2026-05-12T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.7,
+          "gust": 8.0,
+          "temp": 9.2,
+          "precip": 0,
+          "dir": 292,
+          "reason": "9°C"
+        },
+        {
+          "time": "2026-05-12T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.3,
+          "gust": 8.0,
+          "temp": 10.4,
+          "precip": 0,
+          "dir": 300,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.5,
+          "gust": 9.3,
+          "temp": 11.4,
+          "precip": 0,
+          "dir": 280,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.7,
+          "gust": 8.6,
+          "temp": 12.1,
+          "precip": 0,
+          "dir": 286,
+          "reason": "12°C"
+        },
+        {
+          "time": "2026-05-12T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.6,
+          "gust": 8.6,
+          "temp": 12.8,
+          "precip": 0,
+          "dir": 273,
+          "reason": "13°C"
+        },
+        {
+          "time": "2026-05-12T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 7.0,
+          "gust": 9.3,
+          "temp": 13.1,
+          "precip": 0,
+          "dir": 276,
+          "reason": "13°C"
+        },
+        {
+          "time": "2026-05-12T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.9,
+          "gust": 8.0,
+          "temp": 12.9,
+          "precip": 0,
+          "dir": 319,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.8,
+          "gust": 8.0,
+          "temp": 12.6,
+          "precip": 0,
+          "dir": 24,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 1.1,
+          "gust": 2.9,
+          "temp": 12.1,
+          "precip": 0,
+          "dir": 59,
           "reason": "vent off-shore"
         }
       ]
@@ -1402,171 +1402,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-05-10T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 13.2,
-          "gust": 22.2,
-          "temp": 12.0,
-          "precip": 0,
-          "dir": 229,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 13.4,
-          "gust": 20.8,
-          "temp": 12.5,
-          "precip": 0,
-          "dir": 231,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 13.7,
-          "gust": 24.5,
-          "temp": 13.2,
-          "precip": 0,
-          "dir": 235,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.2,
-          "gust": 25.7,
-          "temp": 14.3,
-          "precip": 0,
-          "dir": 238,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 16.3,
-          "gust": 27.6,
-          "temp": 14.6,
-          "precip": 0,
-          "dir": 238,
-          "reason": "15°C"
-        },
-        {
-          "time": "2026-05-10T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 16.0,
-          "gust": 26.0,
-          "temp": 14.1,
-          "precip": 0,
-          "dir": 254,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 16.2,
-          "gust": 25.7,
-          "temp": 14.6,
-          "precip": 0,
-          "dir": 241,
-          "reason": "15°C"
-        },
-        {
-          "time": "2026-05-10T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.6,
-          "gust": 23.1,
-          "temp": 13.9,
-          "precip": 0,
-          "dir": 271,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.6,
-          "gust": 24.3,
-          "temp": 12.3,
-          "precip": 0,
-          "dir": 267,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 12.1,
-          "gust": 18.7,
-          "temp": 11.8,
-          "precip": 0,
-          "dir": 266,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 10.2,
-          "gust": 16.5,
-          "temp": 11.6,
-          "precip": 0,
-          "dir": 262,
-          "reason": "12°C"
-        },
-        {
           "time": "2026-05-11T09:00",
           "status": "red",
           "sources": {
@@ -1574,12 +1409,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.4,
-          "gust": 15.0,
-          "temp": 7.3,
+          "wind": 7.9,
+          "gust": 12.1,
+          "temp": 7.6,
           "precip": 0,
-          "dir": 252,
-          "reason": "7°C"
+          "dir": 242,
+          "reason": "8°C"
         },
         {
           "time": "2026-05-11T10:00",
@@ -1589,12 +1424,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.2,
-          "gust": 14.6,
-          "temp": 8.0,
+          "wind": 8.9,
+          "gust": 13.2,
+          "temp": 8.8,
           "precip": 0,
-          "dir": 244,
-          "reason": "8°C"
+          "dir": 241,
+          "reason": "9°C"
         },
         {
           "time": "2026-05-11T11:00",
@@ -1604,12 +1439,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.6,
-          "gust": 15.0,
-          "temp": 8.7,
+          "wind": 10.1,
+          "gust": 14.2,
+          "temp": 9.9,
           "precip": 0,
-          "dir": 246,
-          "reason": "9°C"
+          "dir": 240,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T12:00",
@@ -1619,12 +1454,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.2,
-          "gust": 15.9,
-          "temp": 8.8,
+          "wind": 12.5,
+          "gust": 17.1,
+          "temp": 10.2,
           "precip": 0,
-          "dir": 260,
-          "reason": "9°C"
+          "dir": 275,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T13:00",
@@ -1634,12 +1469,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.1,
-          "gust": 15.0,
-          "temp": 9.6,
+          "wind": 4.6,
+          "gust": 13.4,
+          "temp": 8.2,
           "precip": 0,
-          "dir": 265,
-          "reason": "10°C"
+          "dir": 285,
+          "reason": "8°C"
         },
         {
           "time": "2026-05-11T14:00",
@@ -1649,12 +1484,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.1,
-          "gust": 13.2,
-          "temp": 10.1,
+          "wind": 6.0,
+          "gust": 13.8,
+          "temp": 10.7,
           "precip": 0,
-          "dir": 258,
-          "reason": "10°C"
+          "dir": 234,
+          "reason": "11°C"
         },
         {
           "time": "2026-05-11T15:00",
@@ -1664,12 +1499,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.8,
-          "gust": 15.4,
-          "temp": 7.9,
+          "wind": 8.2,
+          "gust": 11.5,
+          "temp": 11.0,
           "precip": 0,
-          "dir": 222,
-          "reason": "8°C"
+          "dir": 242,
+          "reason": "11°C"
         },
         {
           "time": "2026-05-11T16:00",
@@ -1679,12 +1514,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.9,
-          "gust": 15.0,
-          "temp": 9.3,
+          "wind": 8.3,
+          "gust": 10.7,
+          "temp": 10.3,
           "precip": 0,
-          "dir": 230,
-          "reason": "9°C"
+          "dir": 291,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T17:00",
@@ -1694,12 +1529,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.9,
-          "gust": 14.8,
-          "temp": 10.4,
+          "wind": 8.9,
+          "gust": 14.4,
+          "temp": 9.3,
           "precip": 0,
-          "dir": 251,
-          "reason": "10°C"
+          "dir": 224,
+          "reason": "9°C"
         },
         {
           "time": "2026-05-11T18:00",
@@ -1709,12 +1544,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.2,
-          "gust": 16.1,
-          "temp": 11.0,
+          "wind": 7.2,
+          "gust": 11.9,
+          "temp": 9.9,
           "precip": 0,
-          "dir": 283,
-          "reason": "11°C"
+          "dir": 234,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T19:00",
@@ -1724,12 +1559,177 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.3,
-          "gust": 16.1,
-          "temp": 9.9,
+          "wind": 7.5,
+          "gust": 11.7,
+          "temp": 9.7,
           "precip": 0,
-          "dir": 299,
+          "dir": 233,
           "reason": "10°C"
+        },
+        {
+          "time": "2026-05-12T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.9,
+          "gust": 11.5,
+          "temp": 6.8,
+          "precip": 0,
+          "dir": 288,
+          "reason": "7°C"
+        },
+        {
+          "time": "2026-05-12T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.0,
+          "gust": 11.5,
+          "temp": 8.0,
+          "precip": 0,
+          "dir": 266,
+          "reason": "8°C"
+        },
+        {
+          "time": "2026-05-12T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.5,
+          "gust": 9.9,
+          "temp": 9.3,
+          "precip": 0,
+          "dir": 287,
+          "reason": "9°C"
+        },
+        {
+          "time": "2026-05-12T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.7,
+          "gust": 8.4,
+          "temp": 10.5,
+          "precip": 0,
+          "dir": 297,
+          "reason": "10°C"
+        },
+        {
+          "time": "2026-05-12T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.0,
+          "gust": 8.9,
+          "temp": 11.4,
+          "precip": 0,
+          "dir": 281,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.0,
+          "gust": 8.6,
+          "temp": 11.5,
+          "precip": 0,
+          "dir": 259,
+          "reason": "12°C"
+        },
+        {
+          "time": "2026-05-12T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.0,
+          "gust": 8.6,
+          "temp": 12.7,
+          "precip": 0,
+          "dir": 244,
+          "reason": "13°C"
+        },
+        {
+          "time": "2026-05-12T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 8.2,
+          "gust": 10.1,
+          "temp": 13.1,
+          "precip": 0,
+          "dir": 251,
+          "reason": "13°C"
+        },
+        {
+          "time": "2026-05-12T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.8,
+          "gust": 8.0,
+          "temp": 13.1,
+          "precip": 0,
+          "dir": 294,
+          "reason": "13°C"
+        },
+        {
+          "time": "2026-05-12T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.1,
+          "gust": 7.6,
+          "temp": 12.7,
+          "precip": 0,
+          "dir": 330,
+          "reason": "13°C"
+        },
+        {
+          "time": "2026-05-12T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 1.2,
+          "gust": 3.5,
+          "temp": 12.3,
+          "precip": 0,
+          "dir": 321,
+          "reason": "12°C"
         }
       ]
     },
@@ -1748,171 +1748,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-05-10T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 11.4,
-          "gust": 19.8,
-          "temp": 11.9,
-          "precip": 0,
-          "dir": 228,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 11.7,
-          "gust": 18.5,
-          "temp": 12.3,
-          "precip": 0,
-          "dir": 227,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 12.4,
-          "gust": 22.0,
-          "temp": 13.0,
-          "precip": 0,
-          "dir": 229,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 14.7,
-          "gust": 22.9,
-          "temp": 13.6,
-          "precip": 0,
-          "dir": 239,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.9,
-          "gust": 26.0,
-          "temp": 13.7,
-          "precip": 0,
-          "dir": 243,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 16.1,
-          "gust": 24.9,
-          "temp": 14.0,
-          "precip": 0,
-          "dir": 240,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 16.2,
-          "gust": 23.3,
-          "temp": 13.7,
-          "precip": 0,
-          "dir": 251,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 14.9,
-          "gust": 21.2,
-          "temp": 13.2,
-          "precip": 0,
-          "dir": 257,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 13.0,
-          "gust": 19.4,
-          "temp": 12.1,
-          "precip": 0,
-          "dir": 257,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 14.6,
-          "gust": 20.8,
-          "temp": 9.7,
-          "precip": 1.1,
-          "dir": 269,
-          "reason": "10°C"
-        },
-        {
-          "time": "2026-05-10T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 8.1,
-          "gust": 16.3,
-          "temp": 10.0,
-          "precip": 0,
-          "dir": 250,
-          "reason": "10°C"
-        },
-        {
           "time": "2026-05-11T09:00",
           "status": "red",
           "sources": {
@@ -1920,12 +1755,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.4,
-          "gust": 15.4,
-          "temp": 7.9,
+          "wind": 4.1,
+          "gust": 8.7,
+          "temp": 8.8,
           "precip": 0,
-          "dir": 246,
-          "reason": "8°C"
+          "dir": 253,
+          "reason": "9°C"
         },
         {
           "time": "2026-05-11T10:00",
@@ -1935,12 +1770,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.7,
-          "gust": 14.8,
-          "temp": 8.6,
+          "wind": 7.7,
+          "gust": 11.3,
+          "temp": 9.5,
           "precip": 0,
-          "dir": 255,
-          "reason": "9°C"
+          "dir": 246,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T11:00",
@@ -1950,12 +1785,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.6,
-          "gust": 13.2,
-          "temp": 8.7,
+          "wind": 8.6,
+          "gust": 10.9,
+          "temp": 9.8,
           "precip": 0,
-          "dir": 249,
-          "reason": "9°C"
+          "dir": 247,
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T12:00",
@@ -1965,11 +1800,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.9,
-          "gust": 12.4,
-          "temp": 8.7,
+          "wind": 13.9,
+          "gust": 18.3,
+          "temp": 9.0,
           "precip": 0,
-          "dir": 261,
+          "dir": 265,
           "reason": "9°C"
         },
         {
@@ -1980,12 +1815,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.3,
-          "gust": 13.2,
-          "temp": 9.8,
+          "wind": 12.2,
+          "gust": 19.0,
+          "temp": 9.1,
           "precip": 0,
-          "dir": 273,
-          "reason": "10°C"
+          "dir": 306,
+          "reason": "9°C"
         },
         {
           "time": "2026-05-11T14:00",
@@ -1995,12 +1830,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 7.2,
-          "gust": 12.6,
-          "temp": 8.2,
+          "wind": 10.3,
+          "gust": 15.7,
+          "temp": 11.3,
           "precip": 0,
-          "dir": 204,
-          "reason": "8°C"
+          "dir": 299,
+          "reason": "11°C"
         },
         {
           "time": "2026-05-11T15:00",
@@ -2010,12 +1845,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 7.4,
-          "gust": 12.2,
-          "temp": 10.3,
+          "wind": 9.7,
+          "gust": 12.8,
+          "temp": 10.6,
           "precip": 0,
-          "dir": 256,
-          "reason": "10°C"
+          "dir": 289,
+          "reason": "11°C"
         },
         {
           "time": "2026-05-11T16:00",
@@ -2025,11 +1860,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.8,
-          "gust": 14.6,
-          "temp": 10.7,
+          "wind": 8.2,
+          "gust": 12.1,
+          "temp": 11.2,
           "precip": 0,
-          "dir": 275,
+          "dir": 292,
           "reason": "11°C"
         },
         {
@@ -2040,12 +1875,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 12.0,
-          "gust": 17.1,
-          "temp": 10.5,
+          "wind": 8.7,
+          "gust": 12.4,
+          "temp": 11.7,
           "precip": 0,
-          "dir": 297,
-          "reason": "10°C"
+          "dir": 279,
+          "reason": "12°C"
         },
         {
           "time": "2026-05-11T18:00",
@@ -2055,12 +1890,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.7,
-          "gust": 15.7,
-          "temp": 9.9,
+          "wind": 8.2,
+          "gust": 11.3,
+          "temp": 11.7,
           "precip": 0,
-          "dir": 297,
-          "reason": "10°C"
+          "dir": 284,
+          "reason": "12°C"
         },
         {
           "time": "2026-05-11T19:00",
@@ -2070,12 +1905,177 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 8.4,
-          "gust": 13.6,
-          "temp": 9.5,
+          "wind": 8.3,
+          "gust": 12.1,
+          "temp": 11.1,
           "precip": 0,
-          "dir": 296,
+          "dir": 294,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 2.8,
+          "gust": 7.6,
+          "temp": 6.7,
+          "precip": 0,
+          "dir": 335,
+          "reason": "7°C"
+        },
+        {
+          "time": "2026-05-12T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 2.8,
+          "gust": 6.2,
+          "temp": 7.8,
+          "precip": 0,
+          "dir": 304,
+          "reason": "8°C"
+        },
+        {
+          "time": "2026-05-12T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.6,
+          "gust": 7.2,
+          "temp": 8.6,
+          "precip": 0,
+          "dir": 320,
+          "reason": "9°C"
+        },
+        {
+          "time": "2026-05-12T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.8,
+          "gust": 6.8,
+          "temp": 9.8,
+          "precip": 0,
+          "dir": 330,
           "reason": "10°C"
+        },
+        {
+          "time": "2026-05-12T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.7,
+          "gust": 9.9,
+          "temp": 10.0,
+          "precip": 0,
+          "dir": 325,
+          "reason": "10°C"
+        },
+        {
+          "time": "2026-05-12T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.7,
+          "gust": 7.6,
+          "temp": 10.5,
+          "precip": 0,
+          "dir": 322,
+          "reason": "10°C"
+        },
+        {
+          "time": "2026-05-12T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.7,
+          "gust": 10.3,
+          "temp": 11.1,
+          "precip": 0,
+          "dir": 325,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.1,
+          "gust": 10.3,
+          "temp": 11.0,
+          "precip": 0,
+          "dir": 323,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.9,
+          "gust": 8.6,
+          "temp": 11.6,
+          "precip": 0,
+          "dir": 343,
+          "reason": "12°C"
+        },
+        {
+          "time": "2026-05-12T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 5.6,
+          "gust": 7.4,
+          "temp": 11.6,
+          "precip": 0,
+          "dir": 14,
+          "reason": "12°C"
+        },
+        {
+          "time": "2026-05-12T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.6,
+          "gust": 7.4,
+          "temp": 11.2,
+          "precip": 0,
+          "dir": 36,
+          "reason": "vent off-shore"
         }
       ]
     },
@@ -2094,171 +2094,6 @@
       "excellent_tomorrow": null,
       "hourly": [
         {
-          "time": "2026-05-10T09:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 12.2,
-          "gust": 20.2,
-          "temp": 12.6,
-          "precip": 0,
-          "dir": 233,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T10:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 12.9,
-          "gust": 19.6,
-          "temp": 13.3,
-          "precip": 0,
-          "dir": 236,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T11:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 13.4,
-          "gust": 20.2,
-          "temp": 14.0,
-          "precip": 0,
-          "dir": 234,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T12:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 14.8,
-          "gust": 23.5,
-          "temp": 14.5,
-          "precip": 0,
-          "dir": 242,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T13:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.3,
-          "gust": 24.3,
-          "temp": 14.8,
-          "precip": 0,
-          "dir": 246,
-          "reason": "15°C"
-        },
-        {
-          "time": "2026-05-10T14:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 14.8,
-          "gust": 23.9,
-          "temp": 13.5,
-          "precip": 0,
-          "dir": 242,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T15:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.8,
-          "gust": 22.9,
-          "temp": 14.5,
-          "precip": 0,
-          "dir": 251,
-          "reason": "14°C"
-        },
-        {
-          "time": "2026-05-10T16:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 15.6,
-          "gust": 22.2,
-          "temp": 13.3,
-          "precip": 0,
-          "dir": 266,
-          "reason": "13°C"
-        },
-        {
-          "time": "2026-05-10T17:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 11.9,
-          "gust": 18.5,
-          "temp": 12.0,
-          "precip": 0,
-          "dir": 252,
-          "reason": "12°C"
-        },
-        {
-          "time": "2026-05-10T18:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 11.7,
-          "gust": 22.0,
-          "temp": 10.8,
-          "precip": 0,
-          "dir": 271,
-          "reason": "11°C"
-        },
-        {
-          "time": "2026-05-10T19:00",
-          "status": "red",
-          "sources": {
-            "open_meteo": "red",
-            "gem": "red",
-            "met_norway": "red"
-          },
-          "wind": 7.2,
-          "gust": 17.1,
-          "temp": 10.7,
-          "precip": 0,
-          "dir": 264,
-          "reason": "11°C"
-        },
-        {
           "time": "2026-05-11T09:00",
           "status": "red",
           "sources": {
@@ -2266,12 +2101,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.2,
-          "gust": 15.6,
-          "temp": 8.2,
+          "wind": 5.3,
+          "gust": 9.7,
+          "temp": 9.3,
           "precip": 0,
-          "dir": 249,
-          "reason": "8°C"
+          "dir": 262,
+          "reason": "9°C"
         },
         {
           "time": "2026-05-11T10:00",
@@ -2281,12 +2116,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.1,
-          "gust": 15.0,
-          "temp": 9.1,
+          "wind": 8.3,
+          "gust": 11.9,
+          "temp": 10.2,
           "precip": 0,
           "dir": 254,
-          "reason": "9°C"
+          "reason": "10°C"
         },
         {
           "time": "2026-05-11T11:00",
@@ -2296,12 +2131,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.5,
-          "gust": 14.6,
-          "temp": 9.9,
+          "wind": 9.3,
+          "gust": 11.9,
+          "temp": 10.9,
           "precip": 0,
-          "dir": 251,
-          "reason": "10°C"
+          "dir": 254,
+          "reason": "11°C"
         },
         {
           "time": "2026-05-11T12:00",
@@ -2311,11 +2146,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.2,
-          "gust": 14.2,
+          "wind": 14.8,
+          "gust": 19.2,
           "temp": 9.2,
           "precip": 0,
-          "dir": 265,
+          "dir": 272,
           "reason": "9°C"
         },
         {
@@ -2326,11 +2161,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.9,
-          "gust": 13.4,
-          "temp": 10.5,
+          "wind": 12.8,
+          "gust": 17.7,
+          "temp": 10.0,
           "precip": 0,
-          "dir": 259,
+          "dir": 308,
           "reason": "10°C"
         },
         {
@@ -2341,12 +2176,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 13.0,
-          "gust": 15.0,
-          "temp": 7.6,
-          "precip": 2.2,
-          "dir": 327,
-          "reason": "8°C"
+          "wind": 8.7,
+          "gust": 16.1,
+          "temp": 11.8,
+          "precip": 0,
+          "dir": 294,
+          "reason": "12°C"
         },
         {
           "time": "2026-05-11T15:00",
@@ -2356,12 +2191,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 6.2,
+          "wind": 10.3,
           "gust": 12.8,
-          "temp": 10.5,
+          "temp": 11.8,
           "precip": 0,
-          "dir": 246,
-          "reason": "10°C"
+          "dir": 286,
+          "reason": "12°C"
         },
         {
           "time": "2026-05-11T16:00",
@@ -2371,11 +2206,11 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 6.3,
-          "gust": 13.2,
-          "temp": 10.7,
+          "wind": 8.2,
+          "gust": 12.2,
+          "temp": 11.3,
           "precip": 0,
-          "dir": 277,
+          "dir": 288,
           "reason": "11°C"
         },
         {
@@ -2386,12 +2221,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 11.7,
-          "gust": 17.1,
-          "temp": 11.2,
+          "wind": 7.7,
+          "gust": 11.9,
+          "temp": 11.6,
           "precip": 0,
-          "dir": 274,
-          "reason": "11°C"
+          "dir": 261,
+          "reason": "12°C"
         },
         {
           "time": "2026-05-11T18:00",
@@ -2401,12 +2236,12 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 10.7,
-          "gust": 15.2,
-          "temp": 10.4,
+          "wind": 8.4,
+          "gust": 11.7,
+          "temp": 11.7,
           "precip": 0,
-          "dir": 303,
-          "reason": "10°C"
+          "dir": 270,
+          "reason": "12°C"
         },
         {
           "time": "2026-05-11T19:00",
@@ -2416,12 +2251,177 @@
             "gem": "red",
             "met_norway": "red"
           },
-          "wind": 9.0,
-          "gust": 14.4,
-          "temp": 9.8,
+          "wind": 7.5,
+          "gust": 11.5,
+          "temp": 11.4,
           "precip": 0,
-          "dir": 294,
+          "dir": 285,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T09:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.8,
+          "gust": 7.2,
+          "temp": 7.3,
+          "precip": 0,
+          "dir": 325,
+          "reason": "7°C"
+        },
+        {
+          "time": "2026-05-12T10:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.1,
+          "gust": 6.8,
+          "temp": 8.4,
+          "precip": 0,
+          "dir": 288,
+          "reason": "8°C"
+        },
+        {
+          "time": "2026-05-12T11:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 2.6,
+          "gust": 6.8,
+          "temp": 9.4,
+          "precip": 0,
+          "dir": 283,
+          "reason": "9°C"
+        },
+        {
+          "time": "2026-05-12T12:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.4,
+          "gust": 7.0,
+          "temp": 10.3,
+          "precip": 0,
+          "dir": 319,
           "reason": "10°C"
+        },
+        {
+          "time": "2026-05-12T13:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.7,
+          "gust": 7.0,
+          "temp": 10.6,
+          "precip": 0,
+          "dir": 295,
+          "reason": "11°C"
+        },
+        {
+          "time": "2026-05-12T14:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.3,
+          "gust": 7.8,
+          "temp": 10.5,
+          "precip": 0,
+          "dir": 336,
+          "reason": "10°C"
+        },
+        {
+          "time": "2026-05-12T15:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.2,
+          "gust": 9.7,
+          "temp": 11.1,
+          "precip": 0,
+          "dir": 349,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T16:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 3.2,
+          "gust": 9.3,
+          "temp": 11.9,
+          "precip": 0,
+          "dir": 335,
+          "reason": "12°C"
+        },
+        {
+          "time": "2026-05-12T17:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.9,
+          "gust": 8.6,
+          "temp": 12.2,
+          "precip": 0,
+          "dir": 5,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T18:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 6.1,
+          "gust": 8.2,
+          "temp": 11.9,
+          "precip": 0,
+          "dir": 18,
+          "reason": "vent off-shore"
+        },
+        {
+          "time": "2026-05-12T19:00",
+          "status": "red",
+          "sources": {
+            "open_meteo": "red",
+            "gem": "red",
+            "met_norway": "red"
+          },
+          "wind": 4.4,
+          "gust": 7.4,
+          "temp": 11.3,
+          "precip": 0,
+          "dir": 23,
+          "reason": "vent off-shore"
         }
       ]
     }
