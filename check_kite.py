@@ -288,31 +288,47 @@ def format_telegram_message(summary):
 
 
 def format_friend_email(summary):
-    """Send if any source shows alert for tomorrow."""
-    triggered = [s for s in summary["spots"] if any_alert(s, "tomorrow")]
+    """Send if any source shows alert today or tomorrow (synced with Telegram)."""
+    triggered = [
+        s for s in summary["spots"]
+        if any_alert(s, "today") or any_alert(s, "tomorrow")
+    ]
     if not triggered:
         return None
 
-    subject = f"🪁 Demain : vent prévu ({len(triggered)} spot{'s' if len(triggered) > 1 else ''})"
+    days_hit = []
+    if any(any_alert(s, "today") for s in triggered):
+        days_hit.append("aujourd'hui")
+    if any(any_alert(s, "tomorrow") for s in triggered):
+        days_hit.append("demain")
+    day_phrase = " et ".join(days_hit)
+
+    subject = f"🪁 Vent prévu {day_phrase} ({len(triggered)} spot{'s' if len(triggered) > 1 else ''})"
     lines = [
         "Salut!",
         "",
         f"Au moins une source météo prévoit du vent (≥12 kn pendant 3h+ dans une "
-        f"direction kiteable) pour demain ({summary['tomorrow']}).",
+        f"direction kiteable) pour {day_phrase}.",
         "",
         "Détail par spot :",
     ]
     for s in triggered:
         lines.append("")
         lines.append(f"  {s['name']}:")
-        for src, w in s["alerts"]["tomorrow"].items():
-            if w:
-                lines.append(
-                    f"    • selon {src}: {w['start']}-{w['end']} "
-                    f"({w['wind_min']}-{w['wind_max']} kn, {w['dominant_dir']})"
-                )
-            else:
-                lines.append(f"    • selon {src}: pas d'alerte")
+        for day_key, day_label, day_iso in [
+            ("today", "Aujourd'hui", summary["today"]),
+            ("tomorrow", "Demain", summary["tomorrow"]),
+        ]:
+            day_lines = []
+            for src, w in s["alerts"][day_key].items():
+                if w:
+                    day_lines.append(
+                        f"      • selon {src}: {w['start']}-{w['end']} "
+                        f"({w['wind_min']}-{w['wind_max']} kn, {w['dominant_dir']})"
+                    )
+            if day_lines:
+                lines.append(f"    {day_label} ({day_iso}):")
+                lines.extend(day_lines)
     lines += [
         "",
         "Les sources peuvent diverger. Va voir le dashboard pour comparer et décider :",
