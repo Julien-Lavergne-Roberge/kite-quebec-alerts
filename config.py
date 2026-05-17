@@ -42,6 +42,26 @@ SPOTS = [
         "lat": 45.451772, "lon": -73.938647,
         "allowed_dirs": ["O", "SO", "S", "NO"],
     },
+    {
+        "name": "Pointe-du-Lac",
+        "lat": 46.282349, "lon": -72.679880,
+        "allowed_dirs": ["O", "SO", "NO"],
+    },
+    {
+        "name": "Venise-en-Québec",
+        "lat": 45.084720, "lon": -73.138747,
+        "allowed_dirs": ["S", "SO", "SE"],
+    },
+    {
+        "name": "Magog",
+        "lat": 45.270643, "lon": -72.177596,
+        "allowed_dirs": ["S", "SO"],
+    },
+    {
+        "name": "Lac aux Araignées",
+        "lat": 45.476600, "lon": -70.787562,
+        "allowed_dirs": ["O", "NO", "SO"],
+    },
 ]
 
 CRITERIA = {

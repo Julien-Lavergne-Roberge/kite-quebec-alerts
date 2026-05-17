@@ -358,23 +358,31 @@ def send_telegram(message):
     return True
 
 
+def _parse_addr_list(raw):
+    if not raw:
+        return []
+    return [a.strip() for a in raw.split(",") if a.strip()]
+
+
 def send_email(subject, body):
-    if not (GMAIL_USER and GMAIL_APP_PASSWORD and FRIEND_EMAIL):
+    to_list = _parse_addr_list(FRIEND_EMAIL)
+    cc_list = _parse_addr_list(CC_EMAIL)
+    if not (GMAIL_USER and GMAIL_APP_PASSWORD and to_list):
         print("Gmail/friend creds missing — printing email instead:\n")
         print(f"Subject: {subject}\n\n{body}")
         return False
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"] = GMAIL_USER
-    msg["To"] = FRIEND_EMAIL
-    if CC_EMAIL:
-        msg["Cc"] = CC_EMAIL
+    msg["To"] = ", ".join(to_list)
+    if cc_list:
+        msg["Cc"] = ", ".join(cc_list)
     msg.attach(MIMEText(body, "plain", "utf-8"))
-    recipients = [FRIEND_EMAIL] + ([CC_EMAIL] if CC_EMAIL else [])
+    recipients = to_list + cc_list
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(GMAIL_USER, GMAIL_APP_PASSWORD)
         server.sendmail(GMAIL_USER, recipients, msg.as_string())
-    print(f"Email sent to {FRIEND_EMAIL}" + (f" (CC {CC_EMAIL})" if CC_EMAIL else ""))
+    print(f"Email sent to {to_list}" + (f" (CC {cc_list})" if cc_list else ""))
     return True
 
 
