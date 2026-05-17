@@ -31,17 +31,15 @@
       <h2>Légende de la carte</h2>
       <div class="legend-grid">
         <div class="legend-row">
-          <span class="swatch green"></span> Excellent (aujourd'hui ou demain)
-          <span class="swatch yellow"></span> Marginal
-          <span class="swatch red"></span> Non kiteable
-          <span class="swatch unknown"></span> Inconnu
+          <span class="swatch" style="background:#2ecc40"></span> Au moins 1 source en alerte (aujourd'hui OU demain)
+          <span class="swatch" style="background:#aaa"></span> Aucune alerte
         </div>
         <div class="legend-row">
-          <span class="swatch" style="background:#ffeb3b; border: 2px solid #2ecc40;"></span>
-          Liseré jaune = <b>excellent prévu demain</b> (critère strict pour notification à un ami)
+          <span class="swatch" style="background:#2ecc40; border:2px solid #ffeb3b"></span>
+          Liseré jaune = <b>alerte sur les deux jours</b> (auj + demain)
         </div>
         <div class="legend-row">
-          Chaque épingle reflète <b>le meilleur entre aujourd'hui et demain</b>. Clique dessus pour voir le détail et ouvrir la vue tableau.
+          <b>Alerte</b> = au moins 1 des 3 sources prévoit ≥ 12 kn pendant ≥ 3h consécutives dans une direction kiteable. Clique l'épingle pour voir le détail par source.
         </div>
       </div>
     </section>

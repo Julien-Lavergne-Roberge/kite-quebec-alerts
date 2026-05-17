@@ -33,10 +33,10 @@ jobs:
           CC_EMAIL: ${{ secrets.CC_EMAIL }}
         run: python check_kite.py
 
-      - name: Commit dashboard data
+      - name: Commit dashboard data and history
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json
+          git add docs/data.json docs/history.jsonl
           git diff --staged --quiet || git commit -m "Update forecast data"
           git push

@@ -26,24 +26,27 @@
       <h2>Comment lire</h2>
       <div class="legend-grid">
         <div class="legend-row">
-          <span class="swatch green"></span> Excellent
-          <span class="swatch yellow"></span> Marginal
-          <span class="swatch red"></span> Non kiteable
+          <span class="swatch alert"></span> Vent ≥ 12 kn + direction OK
+          <span class="swatch marginal"></span> 8-11 kn + direction OK
+          <span class="swatch low"></span> Trop faible <b>ou</b> off-shore
           <span class="swatch unknown"></span> Inconnu
         </div>
         <div class="legend-row legend-format">
-          Format d'une cellule horaire :
+          Format cellule :
           <span class="demo-hour">
             <span class="time">14h</span>
-            <span class="wind">18/24</span>
-            <span class="dir"><span class="arrow" style="--rot:225deg"></span>SO</span>
+            <span class="wind">18<small>/24</small></span>
+            <span class="dir"><span class="arrow ok" style="--rot:225deg"></span>SO</span>
             <span class="temp">22°</span>
           </span>
-          → heure · <b>vent/rafales en nœuds</b> · direction (flèche = d'où vient le vent) · température
+          → heure · <b>vent/rafales (kn)</b> · direction (flèche = d'où vient le vent) · température
         </div>
         <div class="legend-row">
-          <b>Critères</b> : vent 12–30 kn (idéal 15–25), rafales ≤ 35, T ≥ 18 °C, pluie ≤ 2 mm/h, 9h–19h, direction on/side-shore.
-          <br><small>Pointe une cellule pour voir la raison rouge/jaune. Bordure épaisse = heure idéale.</small>
+          <b>Alerte</b> : déclenchée si <b>au moins 1</b> des 3 sources prévoit ≥ 12 kn pendant ≥ 3h consécutives dans une direction kiteable. Pas un consensus — à toi de juger en comparant les 3 sources.
+        </div>
+        <div class="legend-row">
+          <span class="arrow ok" style="--rot:0deg"></span> direction kiteable &nbsp;·&nbsp;
+          <span class="arrow bad" style="--rot:0deg"></span> off-shore (flèche rouge)
         </div>
       </div>
     </section>
@@ -51,7 +54,7 @@
   </main>
 
   <footer>
-    <p>Sources : Open-Meteo · GEM (Environnement Canada) · MET Norway · Consensus ≥ 2/3 sources.</p>
+    <p>Sources : Open-Meteo · GEM (Environnement Canada) · MET Norway · Données brutes par source, pas de consolidation.</p>
   </footer>
 
   <script src="app.js"></script>

@@ -56,12 +56,11 @@ CRITERIA = {
     "hours_max": 19,
 }
 
-# "Excellent" = kick off the email to a friend for TOMORROW only.
-# An hour is excellent if it's green AND wind is in this tighter sweet spot.
-# At least N consecutive excellent hours are required.
-EXCELLENT_CRITERIA = {
-    "wind_min": 14,
-    "wind_max": 24,
+# Alert trigger (Telegram + email) : ANY source showing this pattern for any
+# spot. No consensus required — the user reviews per-source detail on the
+# dashboard and decides.
+ALERT_CRITERIA = {
+    "wind_min": 12,
     "min_consecutive_hours": 3,
 }
 

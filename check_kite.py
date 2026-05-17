@@ -1,8 +1,11 @@
-"""Daily kitesurf forecast check for Quebec lakes.
+"""Daily kitesurf forecast for Quebec lakes — per-source, any-source alerting.
 
-Fetches weather from multiple sources, evaluates each hour against personal
-criteria, writes data for the dashboard, and sends a Telegram alert only if
-at least one spot has green conditions today or tomorrow.
+Fetches weather from 3 sources, keeps RAW per-source hourly data (no consensus),
+detects per-source alert windows, and notifies if ANY source shows ≥12 kn for
+≥3 consecutive hours with an acceptable wind direction. The user judges
+goodness from the dashboard.
+
+Appends a compact snapshot to docs/history.jsonl on every run.
 """
 
 import json
@@ -11,7 +14,6 @@ import smtplib
 import sys
 import time
 import zoneinfo
-from collections import Counter
 from datetime import datetime, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -22,10 +24,10 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 from config import (
+    ALERT_CRITERIA,
     COMPASS,
     COMPASS_TOLERANCE,
     CRITERIA,
-    EXCELLENT_CRITERIA,
     SPOTS,
     TIMEZONE,
 )
@@ -46,27 +48,27 @@ MET_NORWAY_URL = "https://api.met.no/weatherapi/locationforecast/2.0/complete"
 MET_NORWAY_UA = "KiteQuebecAlerts/1.0 github.com/kite-quebec-alerts"
 
 TZ = zoneinfo.ZoneInfo(TIMEZONE)
-
 HTTP_TIMEOUT = 30
+SOURCES = ["open_meteo", "gem", "met_norway"]
+
 
 def _session():
     s = requests.Session()
     retry = Retry(
-        total=2,
-        backoff_factor=1.5,
+        total=2, backoff_factor=1.5,
         status_forcelist=(429, 500, 502, 503, 504),
         allowed_methods=frozenset(["GET"]),
     )
     s.mount("https://", HTTPAdapter(max_retries=retry))
     return s
 
+
 SESSION = _session()
 
 
 def fetch_open_meteo(lat, lon, model="best_match"):
     params = {
-        "latitude": lat,
-        "longitude": lon,
+        "latitude": lat, "longitude": lon,
         "hourly": "temperature_2m,precipitation,wind_speed_10m,wind_gusts_10m,wind_direction_10m",
         "wind_speed_unit": "kn",
         "timezone": TIMEZONE,
@@ -79,11 +81,10 @@ def fetch_open_meteo(lat, lon, model="best_match"):
 
 
 def fetch_met_norway(lat, lon):
-    headers = {"User-Agent": MET_NORWAY_UA}
     r = SESSION.get(
         MET_NORWAY_URL,
         params={"lat": lat, "lon": lon},
-        headers=headers,
+        headers={"User-Agent": MET_NORWAY_UA},
         timeout=HTTP_TIMEOUT,
     )
     r.raise_for_status()
@@ -103,24 +104,12 @@ def direction_matches(degrees, allowed_dirs):
     return False
 
 
-def evaluate_hour(wind, gust, temp, precip, direction, allowed_dirs):
-    c = CRITERIA
-    if not direction_matches(direction, allowed_dirs):
-        return "red", "vent off-shore"
-    if gust > c["gust_max"]:
-        return "red", f"rafales {gust:.0f} kn"
-    if temp < c["temp_min"]:
-        return "red", f"{temp:.0f}°C"
-    if precip > c["precip_max_mmh"]:
-        return "red", f"pluie {precip:.1f} mm/h"
-    if wind < c["wind_min"] or wind > c["wind_max"]:
-        return "red", f"vent {wind:.0f} kn"
-    if c["wind_ideal_min"] <= wind <= c["wind_ideal_max"] and gust < 30 and precip < 0.5:
-        return "green", f"{wind:.0f}/{gust:.0f} kn"
-    return "yellow", f"{wind:.0f}/{gust:.0f} kn"
+def deg_to_cardinal(deg):
+    return ["N", "NE", "E", "SE", "S", "SO", "O", "NO"][round(deg / 45) % 8]
 
 
-def process_open_meteo(data, allowed_dirs):
+def process_open_meteo_raw(data, allowed_dirs):
+    """Return clean hourly list with raw values (no status)."""
     h = data["hourly"]
     out = []
     for i, t in enumerate(h["time"]):
@@ -128,27 +117,22 @@ def process_open_meteo(data, allowed_dirs):
         if not (CRITERIA["hours_min"] <= hour <= CRITERIA["hours_max"]):
             continue
         wind = h["wind_speed_10m"][i]
-        gust = h["wind_gusts_10m"][i]
-        temp = h["temperature_2m"][i]
-        precip = h["precipitation"][i] or 0
         direction = h["wind_direction_10m"][i]
         if wind is None or direction is None:
             continue
-        status, reason = evaluate_hour(wind, gust, temp, precip, direction, allowed_dirs)
         out.append({
             "time": t,
-            "status": status,
-            "reason": reason,
-            "wind": wind,
-            "gust": gust,
-            "temp": temp,
-            "precip": precip,
-            "dir": direction,
+            "wind": round(wind, 1),
+            "gust": round(h["wind_gusts_10m"][i] or 0, 1),
+            "temp": round(h["temperature_2m"][i] or -99, 1),
+            "precip": round(h["precipitation"][i] or 0, 2),
+            "dir": round(direction),
+            "dir_ok": direction_matches(direction, allowed_dirs),
         })
     return out
 
 
-def process_met_norway(data, allowed_dirs):
+def process_met_norway_raw(data, allowed_dirs):
     series = data["properties"]["timeseries"]
     out = []
     now_local = datetime.now(TZ)
@@ -167,125 +151,39 @@ def process_met_norway(data, allowed_dirs):
         direction = inst.get("wind_from_direction", 0)
         next1h = entry["data"].get("next_1_hours", {}).get("details", {})
         precip = next1h.get("precipitation_amount", 0) or 0
-        status, reason = evaluate_hour(wind, gust, temp, precip, direction, allowed_dirs)
         out.append({
             "time": t_local.strftime("%Y-%m-%dT%H:%M"),
-            "status": status,
-            "reason": reason,
-            "wind": wind,
-            "gust": gust,
-            "temp": temp,
-            "precip": precip,
-            "dir": direction,
+            "wind": round(wind, 1),
+            "gust": round(gust, 1),
+            "temp": round(temp, 1),
+            "precip": round(precip, 2),
+            "dir": round(direction),
+            "dir_ok": direction_matches(direction, allowed_dirs),
         })
     return out
 
 
-def consensus_status(per_source):
-    statuses = [s for s in per_source.values() if s]
-    if not statuses:
-        return "unknown"
-    counts = Counter(statuses)
-    top, count = counts.most_common(1)[0]
-    if count >= 2:
-        return top
-    return "yellow"
-
-
-def analyze_spot(spot):
-    results = {"open_meteo": [], "gem": [], "met_norway": []}
-
-    try:
-        om = fetch_open_meteo(spot["lat"], spot["lon"], "best_match")
-        results["open_meteo"] = process_open_meteo(om, spot["allowed_dirs"])
-    except Exception as e:
-        print(f"[{spot['name']}] Open-Meteo error: {e}", file=sys.stderr)
-
-    try:
-        gem = fetch_open_meteo(spot["lat"], spot["lon"], "gem_seamless")
-        results["gem"] = process_open_meteo(gem, spot["allowed_dirs"])
-    except Exception as e:
-        print(f"[{spot['name']}] GEM (Env Canada) error: {e}", file=sys.stderr)
-
-    try:
-        met = fetch_met_norway(spot["lat"], spot["lon"])
-        results["met_norway"] = process_met_norway(met, spot["allowed_dirs"])
-    except Exception as e:
-        print(f"[{spot['name']}] MET Norway error: {e}", file=sys.stderr)
-
-    by_time = {}
-    for h in results["open_meteo"]:
-        key = h["time"][:13]
-        by_time[key] = {"primary": h, "statuses": {"open_meteo": h["status"]}}
-    for h in results["gem"]:
-        key = h["time"][:13]
-        if key in by_time:
-            by_time[key]["statuses"]["gem"] = h["status"]
-    for h in results["met_norway"]:
-        key = h["time"][:13]
-        if key in by_time:
-            by_time[key]["statuses"]["met_norway"] = h["status"]
-
-    merged = []
-    for key in sorted(by_time.keys()):
-        entry = by_time[key]
-        p = entry["primary"]
-        merged.append({
-            "time": p["time"],
-            "status": consensus_status(entry["statuses"]),
-            "sources": entry["statuses"],
-            "wind": round(p["wind"], 1),
-            "gust": round(p["gust"], 1),
-            "temp": round(p["temp"], 1),
-            "precip": round(p["precip"], 2),
-            "dir": round(p["dir"]),
-            "reason": p["reason"],
-        })
-    return merged
-
-
-def day_best(hourly, day_iso):
-    day_hours = [h for h in hourly if h["time"].startswith(day_iso)]
-    if not day_hours:
-        return None
-    rank = {"green": 0, "yellow": 1, "red": 2, "unknown": 3}
-    best = min(day_hours, key=lambda h: rank.get(h["status"], 9))
-    return best["status"]
-
-
-def deg_to_cardinal(deg):
-    dirs = ["N", "NE", "E", "SE", "S", "SO", "O", "NO"]
-    return dirs[round(deg / 45) % 8]
-
-
-def find_excellent_window(hourly, day_iso):
-    """Longest consecutive run of excellent hours on a given day.
-
-    Excellent = green consensus AND wind in the tighter sweet spot.
-    Returns a dict with window info, or None.
-    """
-    ec = EXCELLENT_CRITERIA
+def find_alert_window(hourly, day_iso):
+    """Longest consecutive run on day_iso where wind ≥ wind_min AND dir_ok."""
+    ac = ALERT_CRITERIA
     day_hours = sorted(
         (h for h in hourly if h["time"].startswith(day_iso)),
         key=lambda h: h["time"],
     )
 
-    def is_excellent(h):
-        return (
-            h["status"] == "green"
-            and ec["wind_min"] <= h["wind"] <= ec["wind_max"]
-        )
+    def hour_ok(h):
+        return h["wind"] >= ac["wind_min"] and h["dir_ok"]
 
     best, current = [], []
     for h in day_hours:
-        if is_excellent(h):
+        if hour_ok(h):
             current.append(h)
             if len(current) > len(best):
                 best = current[:]
         else:
             current = []
 
-    if len(best) < ec["min_consecutive_hours"]:
+    if len(best) < ac["min_consecutive_hours"]:
         return None
 
     winds = [h["wind"] for h in best]
@@ -293,11 +191,38 @@ def find_excellent_window(hourly, day_iso):
     return {
         "start": best[0]["time"][11:16],
         "end": best[-1]["time"][11:16],
-        "count": len(best),
+        "hours": len(best),
         "wind_min": round(min(winds)),
         "wind_max": round(max(winds)),
         "dominant_dir": deg_to_cardinal(sum(dirs) / len(dirs)),
     }
+
+
+def analyze_spot(spot):
+    """Return raw per-source hourly data."""
+    raw = {s: [] for s in SOURCES}
+    try:
+        raw["open_meteo"] = process_open_meteo_raw(
+            fetch_open_meteo(spot["lat"], spot["lon"], "best_match"),
+            spot["allowed_dirs"],
+        )
+    except Exception as e:
+        print(f"[{spot['name']}] Open-Meteo error: {e}", file=sys.stderr)
+    try:
+        raw["gem"] = process_open_meteo_raw(
+            fetch_open_meteo(spot["lat"], spot["lon"], "gem_seamless"),
+            spot["allowed_dirs"],
+        )
+    except Exception as e:
+        print(f"[{spot['name']}] GEM error: {e}", file=sys.stderr)
+    try:
+        raw["met_norway"] = process_met_norway_raw(
+            fetch_met_norway(spot["lat"], spot["lon"]),
+            spot["allowed_dirs"],
+        )
+    except Exception as e:
+        print(f"[{spot['name']}] MET Norway error: {e}", file=sys.stderr)
+    return raw
 
 
 def build_summary():
@@ -306,94 +231,122 @@ def build_summary():
     spots_data = []
     for spot in SPOTS:
         print(f"Checking {spot['name']}...", flush=True)
-        hourly = analyze_spot(spot)
+        raw = analyze_spot(spot)
         time.sleep(0.5)
-        lat, lon = spot["lat"], spot["lon"]
+
+        alerts = {"today": {}, "tomorrow": {}}
+        for src in SOURCES:
+            alerts["today"][src] = find_alert_window(raw[src], today.isoformat())
+            alerts["tomorrow"][src] = find_alert_window(raw[src], tomorrow.isoformat())
+
         spots_data.append({
             "name": spot["name"],
-            "lat": lat,
-            "lon": lon,
+            "lat": spot["lat"],
+            "lon": spot["lon"],
             "allowed_dirs": spot["allowed_dirs"],
-            "today": day_best(hourly, today.isoformat()),
-            "tomorrow": day_best(hourly, tomorrow.isoformat()),
-            "excellent_tomorrow": find_excellent_window(hourly, tomorrow.isoformat()),
-            "hourly": hourly,
+            "alerts": alerts,
+            "by_source": raw,
         })
     return {
         "generated_at": datetime.now(TZ).isoformat(),
         "today": today.isoformat(),
         "tomorrow": tomorrow.isoformat(),
+        "sources": SOURCES,
         "spots": spots_data,
     }
 
 
+def any_alert(spot, day_key):
+    return any(w is not None for w in spot["alerts"][day_key].values())
+
+
 def format_telegram_message(summary):
-    green_today_or_tomorrow = any(
-        s["today"] == "green" or s["tomorrow"] == "green" for s in summary["spots"]
-    )
-    if not green_today_or_tomorrow:
+    """Fire if any source shows an alert window for any spot today or tomorrow."""
+    triggered = [
+        s for s in summary["spots"]
+        if any_alert(s, "today") or any_alert(s, "tomorrow")
+    ]
+    if not triggered:
         return None
 
-    emoji = {"green": "🟢", "yellow": "🟡", "red": "🔴", "unknown": "⚪"}
-    lines = ["🪁 *Alerte kite Québec*", ""]
-    for s in summary["spots"]:
-        today_e = emoji.get(s["today"], "⚪")
-        tom_e = emoji.get(s["tomorrow"], "⚪")
-        lines.append(f"{today_e}→{tom_e} *{s['name']}*")
-        for day_key, day_label in [("today", "Auj"), ("tomorrow", "Demain")]:
-            if s[day_key] == "green":
-                day_iso = summary[day_key]
-                greens = [h for h in s["hourly"] if h["time"].startswith(day_iso) and h["status"] == "green"]
-                if greens:
-                    times = ", ".join(f"{h['time'][11:16]} ({h['wind']:.0f}kn)" for h in greens)
-                    lines.append(f"  {day_label}: {times}")
-    lines.append("")
-    lines.append(f"Dashboard: {DASHBOARD_URL}")
+    lines = ["🪁 *Alerte vent Québec*", ""]
+    for s in triggered:
+        lines.append(f"*{s['name']}*")
+        for day_key, label in [("today", "Auj"), ("tomorrow", "Demain")]:
+            hits = {src: w for src, w in s["alerts"][day_key].items() if w}
+            if hits:
+                lines.append(f"  _{label}:_")
+                for src, w in hits.items():
+                    lines.append(
+                        f"   • {src}: {w['start']}-{w['end']} "
+                        f"({w['wind_min']}-{w['wind_max']} kn, {w['dominant_dir']})"
+                    )
+        lines.append("")
+    lines.append("Pas un consensus — vérifie le détail sur le dashboard :")
+    lines.append(DASHBOARD_URL)
     return "\n".join(lines)
 
 
 def format_friend_email(summary):
-    """Return (subject, body) if tomorrow has excellent spots, else None."""
-    excellent_spots = [
-        s for s in summary["spots"] if s.get("excellent_tomorrow")
-    ]
-    if not excellent_spots:
+    """Send if any source shows alert for tomorrow."""
+    triggered = [s for s in summary["spots"] if any_alert(s, "tomorrow")]
+    if not triggered:
         return None
 
-    # Pick first spot name for subject punch
-    subject = f"🪁 Demain = kite à {excellent_spots[0]['name']}!"
-    if len(excellent_spots) > 1:
-        subject = f"🪁 Demain = kite ({len(excellent_spots)} spots excellents)"
-
+    subject = f"🪁 Demain : vent prévu ({len(triggered)} spot{'s' if len(triggered) > 1 else ''})"
     lines = [
         "Salut!",
         "",
-        f"Grosse journée kite prévue demain ({summary['tomorrow']}) 🌬️",
+        f"Au moins une source météo prévoit du vent (≥12 kn pendant 3h+ dans une "
+        f"direction kiteable) pour demain ({summary['tomorrow']}).",
         "",
-        "Spots excellents :",
+        "Détail par spot :",
     ]
-    for s in excellent_spots:
-        w = s["excellent_tomorrow"]
-        lines.append(
-            f"  • {s['name']} : {w['start']}–{w['end']} "
-            f"({w['wind_min']}-{w['wind_max']} kn, {w['dominant_dir']})"
-        )
+    for s in triggered:
+        lines.append("")
+        lines.append(f"  {s['name']}:")
+        for src, w in s["alerts"]["tomorrow"].items():
+            if w:
+                lines.append(
+                    f"    • selon {src}: {w['start']}-{w['end']} "
+                    f"({w['wind_min']}-{w['wind_max']} kn, {w['dominant_dir']})"
+                )
+            else:
+                lines.append(f"    • selon {src}: pas d'alerte")
     lines += [
         "",
-        "On se gosse un congé?",
+        "Les sources peuvent diverger. Va voir le dashboard pour comparer et décider :",
+        f"  {DASHBOARD_URL}",
         "",
-        f"Dashboard : {DASHBOARD_URL}",
-        "",
-        "— Julien (envoyé automatiquement par mon bot kite)",
+        "— Julien LR (alerte auto)",
     ]
     return subject, "\n".join(lines)
+
+
+def send_telegram(message):
+    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
+        print("Telegram creds missing — printing message instead:\n")
+        print(message)
+        return False
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    r = requests.post(
+        url,
+        json={
+            "chat_id": TELEGRAM_CHAT_ID, "text": message,
+            "parse_mode": "Markdown", "disable_web_page_preview": True,
+        },
+        timeout=20,
+    )
+    r.raise_for_status()
+    print("Telegram sent.")
+    return True
 
 
 def send_email(subject, body):
     if not (GMAIL_USER and GMAIL_APP_PASSWORD and FRIEND_EMAIL):
         print("Gmail/friend creds missing — printing email instead:\n")
         print(f"Subject: {subject}\n\n{body}")
-        return
+        return False
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject
     msg["From"] = GMAIL_USER
@@ -401,35 +354,31 @@ def send_email(subject, body):
     if CC_EMAIL:
         msg["Cc"] = CC_EMAIL
     msg.attach(MIMEText(body, "plain", "utf-8"))
-
-    recipients = [FRIEND_EMAIL]
-    if CC_EMAIL:
-        recipients.append(CC_EMAIL)
-
+    recipients = [FRIEND_EMAIL] + ([CC_EMAIL] if CC_EMAIL else [])
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
         server.login(GMAIL_USER, GMAIL_APP_PASSWORD)
         server.sendmail(GMAIL_USER, recipients, msg.as_string())
     print(f"Email sent to {FRIEND_EMAIL}" + (f" (CC {CC_EMAIL})" if CC_EMAIL else ""))
+    return True
 
 
-def send_telegram(message):
-    if not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
-        print("Telegram creds missing — printing message instead:\n")
-        print(message)
-        return
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    r = requests.post(
-        url,
-        json={
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": message,
-            "parse_mode": "Markdown",
-            "disable_web_page_preview": True,
-        },
-        timeout=20,
-    )
-    r.raise_for_status()
-    print("Telegram sent.")
+def append_history(summary, telegram_sent, email_sent):
+    """One JSONL line per run, slim: alerts only, no raw hourly."""
+    path = Path("docs/history.jsonl")
+    path.parent.mkdir(exist_ok=True)
+    entry = {
+        "generated_at": summary["generated_at"],
+        "today": summary["today"],
+        "tomorrow": summary["tomorrow"],
+        "telegram_sent": telegram_sent,
+        "email_sent": email_sent,
+        "spots": [
+            {"name": s["name"], "alerts": s["alerts"]}
+            for s in summary["spots"]
+        ],
+    }
+    with path.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
 
 def main():
@@ -438,18 +387,28 @@ def main():
     docs.mkdir(exist_ok=True)
     (docs / "data.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False))
 
+    telegram_sent = False
     msg = format_telegram_message(summary)
     if msg:
-        send_telegram(msg)
+        try:
+            telegram_sent = send_telegram(msg)
+        except Exception as e:
+            print(f"Telegram failed: {e}", file=sys.stderr)
     else:
-        print("No green spots today or tomorrow — no Telegram sent.")
+        print("No alert today or tomorrow — no Telegram sent.")
 
+    email_sent = False
     email = format_friend_email(summary)
     if email:
-        subject, body = email
-        send_email(subject, body)
+        try:
+            subject, body = email
+            email_sent = send_email(subject, body)
+        except Exception as e:
+            print(f"Email failed: {e}", file=sys.stderr)
     else:
-        print("No excellent spot tomorrow — no email sent.")
+        print("No alert tomorrow — no email sent.")
+
+    append_history(summary, telegram_sent, email_sent)
 
 
 if __name__ == "__main__":
